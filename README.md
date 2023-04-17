@@ -2,7 +2,7 @@
 
 [![Bagde: Google Cloud](https://img.shields.io/badge/Google%20Cloud-%234285F4.svg?logo=google-cloud&logoColor=white)](https://github.com/Cyclenerd/terraform-google-quota-limits/blob/master/README.md)
 [![Badge: Terraform](https://img.shields.io/badge/Terraform-%235835CC.svg?logo=terraform&logoColor=white)](https://github.com/Cyclenerd/terraform-google-quota-limits/blob/master/README.md)
-[![Bagde: CI](https://github.com/Cyclenerd/terraform-google-quota-limits/actions/workflows/ci.yml/badge.svg)](https://github.com/Cyclenerd/google-cloud-pricing-cost-calculator/actions/workflows/ci.yml)
+[![Bagde: CI](https://github.com/Cyclenerd/terraform-google-quota-limits/actions/workflows/ci.yml/badge.svg)](https://github.com/Cyclenerd/terraform-google-quota-limits/actions/workflows/ci.yml)
 [![Bagde: GitHub](https://img.shields.io/github/license/cyclenerd/terraform-google-quota-limits)](https://github.com/Cyclenerd/google-cloud-pricing-cost-calculator/blob/master/LICENSE)
 
 Override consumer quota limits for Google Cloud Platform projects.
@@ -12,6 +12,30 @@ Ideal to limit the use of expensive CPUs and GPUs.
 
 > **Warning**
 > This module cannot be used to grant more quota than would be allowed by admin overrides, producer overrides, or the default limit of the service.
+
+## Example
+
+All [default metrics](https://github.com/Cyclenerd/terraform-google-quota-limits#input_metrics) (input `metrics`) in all [default regions](https://github.com/Cyclenerd/terraform-google-quota-limits#input_regions) (input `regions`) are set to `0`.
+In region `europe-west4`,
+four (`4`) [N1 CPUs](https://gcloud-compute.com/instances.html) (metric `compute.googleapis.com/cpus`)
+and four (`4`) [E2 CPUs](https://gcloud-compute.com/instances.html) (metric `compute.googleapis.com/e2_cpus`)
+are allowed.
+
+```hcl
+module "secret" {
+  source     = "cyclenerd/quota-limits/google"
+  version    = "1.0.0"
+  project_id = "your-project-id"
+  limits     = {
+    "europe-west4" = {
+      "compute.googleapis.com/cpus"    = "4" # N1
+      "compute.googleapis.com/e2_cpus" = "4" # E2
+    }
+  }
+}
+```
+
+👉 [More examples](https://github.com/Cyclenerd/terraform-google-quota-limits/tree/master/examples)
 
 <!-- BEGIN_TF_DOCS -->
 ## Providers
@@ -38,3 +62,7 @@ Ideal to limit the use of expensive CPUs and GPUs.
 | <a name="output_quotas"></a> [quotas](#output\_quotas) | The quotas per metric and region that are limited |
 | <a name="output_regions"></a> [regions](#output\_regions) | The regions that are limited |
 <!-- END_TF_DOCS -->
+
+## License
+
+All files in this repository are under the [Apache License, Version 2.0](LICENSE) unless noted otherwise.
