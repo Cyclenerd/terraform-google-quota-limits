@@ -1,14 +1,14 @@
 # Update Google Cloud Consumer Quota Limits
 
-[![Bagde: Google Cloud](https://img.shields.io/badge/Google%20Cloud-%234285F4.svg?logo=google-cloud&logoColor=white)](https://github.com/Cyclenerd/terraform-google-quota-limits/blob/master/README.md)
-[![Badge: Terraform](https://img.shields.io/badge/Terraform-%235835CC.svg?logo=terraform&logoColor=white)](https://github.com/Cyclenerd/terraform-google-quota-limits/blob/master/README.md)
+[![Bagde: Google Cloud](https://img.shields.io/badge/Google%20Cloud-%234285F4.svg?logo=google-cloud&logoColor=white)](https://github.com/Cyclenerd/terraform-google-quota-limits#readme)
+[![Badge: Terraform](https://img.shields.io/badge/Terraform-%235835CC.svg?logo=terraform&logoColor=white)](https://github.com/Cyclenerd/terraform-google-quota-limits#readme)
 [![Bagde: CI](https://github.com/Cyclenerd/terraform-google-quota-limits/actions/workflows/ci.yml/badge.svg)](https://github.com/Cyclenerd/terraform-google-quota-limits/actions/workflows/ci.yml)
 [![Bagde: GitHub](https://img.shields.io/github/license/cyclenerd/terraform-google-quota-limits)](https://github.com/Cyclenerd/google-cloud-pricing-cost-calculator/blob/master/LICENSE)
 
 Override consumer quota limits for Google Cloud Platform projects.
 Ideal to limit the use of expensive CPUs and GPUs.
 
-![Screenshot: C3 CPU Quotas](./img/quotas_c3_cpus.png)
+[![Screenshot: C3 CPU Quotas](./img/quotas_c3_cpus.png)](https://github.com/Cyclenerd/terraform-google-quota-limits#readme)
 
 > **Warning**
 > This module cannot be used to grant more quota than would be allowed by admin overrides, producer overrides, or the default limit of the service.
@@ -23,7 +23,7 @@ are allowed.
 
 ```hcl
 module "secret" {
-  source     = "cyclenerd/quota-limits/google"
+  source     = "Cyclenerd/quota-limits/google"
   version    = "1.0.0"
   project_id = "your-project-id"
   limits     = {
