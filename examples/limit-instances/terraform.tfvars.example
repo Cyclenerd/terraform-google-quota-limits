@@ -1,0 +1,7 @@
+project_id = "your-project-id"
+limits = {
+  "europe-west4" = {
+    "compute.googleapis.com/instances" = "1"
+    "compute.googleapis.com/cpus"      = "4"
+  }
+}
