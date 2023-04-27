@@ -8,7 +8,7 @@
 Override consumer quota limits for Google Cloud Platform projects.
 Ideal to limit the use of expensive CPUs and GPUs.
 
-[![Screenshot: C3 CPU Quotas](./img/quotas_c3_cpus.png)](https://github.com/Cyclenerd/terraform-google-quota-limits#readme)
+[![Screenshot: C3 CPU Quotas](https://raw.githubusercontent.com/Cyclenerd/terraform-google-quota-limits/master/img/quotas_c3_cpus.png)](https://github.com/Cyclenerd/terraform-google-quota-limits#readme)
 
 > **Warning**
 > This module cannot be used to grant more quota than would be allowed by admin overrides, producer overrides, or the default limit of the service.
@@ -24,7 +24,7 @@ are allowed.
 ```hcl
 module "secret" {
   source     = "Cyclenerd/quota-limits/google"
-  version    = "1.0.0"
+  version    = "~> 1.0.0"
   project_id = "your-project-id"
   limits     = {
     "europe-west4" = {
