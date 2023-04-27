@@ -22,7 +22,7 @@ and four (`4`) [E2 CPUs](https://gcloud-compute.com/instances.html) (metric `com
 are allowed.
 
 ```hcl
-module "secret" {
+module "quota-limits" {
   source     = "Cyclenerd/quota-limits/google"
   version    = "~> 1.0.0"
   project_id = "your-project-id"
