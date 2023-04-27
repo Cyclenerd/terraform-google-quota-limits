@@ -15,11 +15,10 @@ Ideal to limit the use of expensive CPUs and GPUs.
 
 ## Example
 
-All [default metrics](https://github.com/Cyclenerd/terraform-google-quota-limits#input_metrics) (input `metrics`) in all [default regions](https://github.com/Cyclenerd/terraform-google-quota-limits#input_regions) (input `regions`) are set to `0`.
-In region `europe-west4`,
-four (`4`) [N1 CPUs](https://gcloud-compute.com/instances.html) (metric `compute.googleapis.com/cpus`)
-and four (`4`) [E2 CPUs](https://gcloud-compute.com/instances.html) (metric `compute.googleapis.com/e2_cpus`)
-are allowed.
+1. All [default metrics](https://github.com/Cyclenerd/terraform-google-quota-limits#input_metrics) (input `metrics`) in all [default regions](https://github.com/Cyclenerd/terraform-google-quota-limits#input_regions) (input `regions`) are set to `0`.
+1. In region `europe-west4`,
+  * four (`4`) [N1 CPUs](https://gcloud-compute.com/instances.html) (metric `compute.googleapis.com/cpus`) and
+  * four (`4`) [E2 CPUs](https://gcloud-compute.com/instances.html) (metric `compute.googleapis.com/e2_cpus`) are allowed.
 
 ```hcl
 module "quota-limits" {
@@ -35,7 +34,7 @@ module "quota-limits" {
 }
 ```
 
-👉 [More examples](https://github.com/Cyclenerd/terraform-google-quota-limits/tree/master/examples)
+👉 **[More examples](https://github.com/Cyclenerd/terraform-google-quota-limits/tree/master/examples)**
 
 <!-- BEGIN_TF_DOCS -->
 ## Providers
