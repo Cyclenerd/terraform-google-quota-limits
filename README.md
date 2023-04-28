@@ -36,6 +36,14 @@ module "quota-limits" {
 
 👉 **[More examples](https://github.com/Cyclenerd/terraform-google-quota-limits/tree/master/examples)**
 
+## Quotas
+
+Lists (CSV) with service quota metrics for a consumer:
+
+* [Compute Engine `compute.googleapis.com`](https://github.com/Cyclenerd/terraform-google-quota-limits/blob/master/tools/compute.csv)
+* [Cloud Storage `storage.googleapis.com`](https://github.com/Cyclenerd/terraform-google-quota-limits/blob/master/tools/storage.csv)
+* [BigQuery `bigquery.googleapis.com`](https://github.com/Cyclenerd/terraform-google-quota-limits/blob/master/tools/bigquery.csv)
+
 <!-- BEGIN_TF_DOCS -->
 ## Providers
 
