@@ -1,0 +1,14 @@
+METRIC,NAME
+bigquery.googleapis.com/iam_policy_requests,IamPolicy requests
+bigquery.googleapis.com/quota/extract/bytes,Extract bytes
+bigquery.googleapis.com/quota/query/cloud_sql_federated_query_cross_region_bytes,Cloud SQL federated query cross region bytes
+bigquery.googleapis.com/quota/query/cross_cloud_transfer_bytes,Cross cloud transferred bytes
+bigquery.googleapis.com/quota/query/omni_query_bytes,BigQuery Omni materialized query bytes
+bigquery.googleapis.com/quota/query/usage,Query usage
+bigquery.googleapis.com/quota/streaming/insert_bytes,Streaming insert bytes
+bigquery.googleapis.com/quota/streaming/insert_bytes_eu,Streaming insert bytes in EU
+bigquery.googleapis.com/quota/streaming/insert_bytes_us,Streaming insert bytes in US
+bigquery.googleapis.com/quota/tabledata/list_bytes_eu,Tabledata List bytes in EU
+bigquery.googleapis.com/quota/tabledata/list_bytes_regional,Tabledata List bytes
+bigquery.googleapis.com/quota/tabledata/list_bytes_us,Tabledata List bytes in US
+bigquery.googleapis.com/unlimited_requests,Requests

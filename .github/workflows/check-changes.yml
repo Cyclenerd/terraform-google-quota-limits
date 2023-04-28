@@ -1,0 +1,50 @@
+name: "Check Quota Metrics"
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '5 8 15 * *' # At 08:05 on day-of-month 15.
+
+jobs:
+  check-changes:
+    name: Check Google Cloud service quota metric changes
+    runs-on: ubuntu-latest
+
+    # Add "id-token" for Google Authentication
+    permissions:
+      issues: write
+      contents: write
+      id-token: write
+
+    steps:
+      - name: 🛎️ Checkout
+        uses: actions/checkout@v3
+      
+      # Configure Workload Identity Federation via a credentials file.
+      - id: auth
+        name: 🔐 Authenticate to Google Cloud
+        uses: google-github-actions/auth@v1
+        with:
+          workload_identity_provider: 'projects/187514662523/locations/global/workloadIdentityPools/github-com/providers/github-com-oidc'
+          service_account: 'gh-quota-limits@gcloud-compute-344913.iam.gserviceaccount.com'
+          export_environment_variables: true
+      # Install gcloud, `setup-gcloud` automatically picks up authentication from `auth`.
+      # https://github.com/marketplace/actions/set-up-gcloud-cloud-sdk-environment
+      - name: '🔧 Set up Google Cloud SDK'
+        uses: 'google-github-actions/setup-gcloud@v1'
+        with:
+          install_components: 'alpha,beta'
+      # Now you can run gcloud commands authenticated as the impersonated service account.
+
+      - id: 'gcloud'
+        name: 📥 Export service quota metrics
+        run: |
+          cd tools || exit 9
+          bash quotas.sh || exit 9
+
+      - name: 🌡️ Check changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cd tools || exit 9
+          bash check.sh || exit 9
