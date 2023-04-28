@@ -31,7 +31,7 @@ if ! git diff --exit-code "$CSV_QUOTAS_COMPUTE"; then
 		git diff --color=always "$CSV_QUOTAS_COMPUTE" | perl -wlne 'print $1 if /^\e\[31m-(.*)\e\[m$/'
 	} > "$DIFF_QUOTAS_COMPUTE"
 	echo "» Create a new incident to notify '$GITHUB_ISSUE_ASSIGNEE'."
-	gh issue create --assignee "$GITHUB_ISSUE_ASSIGNEE" --label "$GITHUB_ISSUE_LABEL" --title "Compute Engine metrics changed" -F "$DIFF_QUOTAS_COMPUTE"
+	gh issue create --assignee "$GITHUB_ISSUE_ASSIGNEE" --title "Compute Engine metrics changed" -F "$DIFF_QUOTAS_COMPUTE"
 	git add "$CSV_QUOTAS_COMPUTE"
 	((MY_CHANGES++));
 fi
