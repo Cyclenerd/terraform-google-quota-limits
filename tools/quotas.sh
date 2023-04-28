@@ -6,7 +6,11 @@
 
 source "config.sh" || exit 9
 
-gcloud auth list || exit 9
+# Test login
+gcloud alpha services quota list \
+--quiet \
+--service="storage.googleapis.com" \
+--consumer="projects/$MY_PROJECT_ID" || exit 9
 
 echo "Get quotas... Please wait..."
 
