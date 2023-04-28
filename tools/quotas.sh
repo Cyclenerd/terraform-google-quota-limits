@@ -6,6 +6,8 @@
 
 source "config.sh" || exit 9
 
+gcloud auth list || exit 9
+
 echo "Get quotas... Please wait..."
 
 echo "METRIC,NAME" > "$CSV_QUOTAS_COMPUTE" || exit 9
