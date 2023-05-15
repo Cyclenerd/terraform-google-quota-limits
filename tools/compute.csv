@@ -73,15 +73,20 @@ compute.googleapis.com/instance_list_referrers_requests,Instance List Referrer r
 compute.googleapis.com/instance_list_referrers_requests_per_region,Instance List Referrer requests
 compute.googleapis.com/instance_templates,Instance templates
 compute.googleapis.com/instances,VM instances
+compute.googleapis.com/instances_per_peering_group,Instances Per peering group
 compute.googleapis.com/instances_per_vpc_network,Instances Per VPC Network
 compute.googleapis.com/interconnect_attachments_per_region,Interconnect attachments
 compute.googleapis.com/interconnect_attachments_total_mbps,Interconnect attachments total bandwidth (Mbps)
 compute.googleapis.com/interconnects,Interconnects
 compute.googleapis.com/internal_addresses,Internal IP addresses
+compute.googleapis.com/internal_lb_forwarding_rules_per_peering_group,Internal Load Balancer Forwarding Rules per peering group
 compute.googleapis.com/internal_lb_forwarding_rules_per_vpc_network,Internal Load Balancer Forwarding Rules per VPC Network
+compute.googleapis.com/internal_managed_forwarding_rules_per_peering_group,Internal Managed Forwarding Rules per peering group
 compute.googleapis.com/internal_managed_forwarding_rules_per_vpc_network,Internal Managed Forwarding Rules per VPC Network
+compute.googleapis.com/internal_protocol_forwarding_rules_per_peering_group,Internal Protocol Forwarding Rules per peering group
 compute.googleapis.com/internal_protocol_forwarding_rules_per_vpc_network,Internal Protocol Forwarding Rules per VPC Network
 compute.googleapis.com/internal_traffic_director_forwarding_rules,Traffic director forwarding rules
+compute.googleapis.com/ip_aliases_per_peering_group,IP Aliases per regional VPC Network
 compute.googleapis.com/ip_aliases_per_vpc_network,IP Aliases per VPC Network
 compute.googleapis.com/license_insert_requests,License insert requests
 compute.googleapis.com/license_verification_requests,Requests related to license verification
@@ -165,6 +170,7 @@ compute.googleapis.com/regional_security_policy_rules,Regional security policy r
 compute.googleapis.com/regional_static_addresses,Static IP addresses
 compute.googleapis.com/regional_static_byoip_addresses,Static BYOIP IP addresses
 compute.googleapis.com/regional_static_external_ipv6_address_ranges,External IPv6 address ranges
+compute.googleapis.com/regional_static_internal_ipv6_address_ranges,Internal IPv6 address ranges
 compute.googleapis.com/regional_target_tcp_proxies,Regional Target TCP proxies
 compute.googleapis.com/regional_v2_public_advertised_prefixes_announce_requests,Public V2 Advertised Prefixes announce requests
 compute.googleapis.com/regional_v2_public_advertised_prefixes_create_requests,Public V2 Advertised Prefixes create requests
@@ -185,6 +191,8 @@ compute.googleapis.com/simulate_maintenance_event_requests_per_region,Instance S
 compute.googleapis.com/snapshots,Snapshots
 compute.googleapis.com/ssd_total_storage,Total SSD disk reserved (GB)
 compute.googleapis.com/ssl_certificates,SSL certificates
+compute.googleapis.com/static_routes_per_peering_group,Custom static routes per peering group
+compute.googleapis.com/subnet_ranges_per_peering_group,Subnet ranges Per peering group
 compute.googleapis.com/subnet_ranges_per_vpc_network,Subnetwork ranges per VPC Network
 compute.googleapis.com/subnetworks,Subnetworks
 compute.googleapis.com/t2a_cpus,T2A CPUs
