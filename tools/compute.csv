@@ -159,6 +159,8 @@ compute.googleapis.com/regional_internal_managed_backend_services,Regional inter
 compute.googleapis.com/regional_net_lb_security_policies,Network load balancing security policies
 compute.googleapis.com/regional_net_lb_security_policy_rule_attributes,Network load balacing security policy rule attributes
 compute.googleapis.com/regional_net_lb_security_policy_rules,Network load balancing security policy rules
+compute.googleapis.com/regional_network_endpoint_list_requests_per_region,Regional network endpoint list requests
+compute.googleapis.com/regional_network_endpoint_write_requests_per_region,Regional network endpoint write requests
 compute.googleapis.com/regional_network_firewall_policies,Regional network firewall policies
 compute.googleapis.com/regional_public_delegated_prefixes,Regional public delegated prefixes
 compute.googleapis.com/regional_public_delegated_prefixes_announce_requests_per_region,Regional Public Delegated Prefixes announce requests
