@@ -6,7 +6,7 @@ This example shows how to limit the Google Compute Engine instance numbers per p
 1. Additionally, all instances (metric `compute.googleapis.com/instances` in all regions are set to `0` except for region [`europe-west1`](https://gcloud-compute.com/europe-west1.html) and [`europe-west4`](https://gcloud-compute.com/europe-west4.html).
 1. In region `europe-west1` and `europe-west4`,
   * one (`1`) instance with a total of 
-  * four (`4`) [N1 CPUs](https://gcloud-compute.com/instances.html) (metric `compute.googleapis.com/cpus`) are allowed.
+  * four (`4`) [N1 and E2 CPUs](https://gcloud-compute.com/instances.html) (metric `compute.googleapis.com/cpus`) are allowed.
 
 ## Example
 

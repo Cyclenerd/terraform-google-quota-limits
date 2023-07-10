@@ -75,7 +75,6 @@ variable "metrics" {
     "compute.googleapis.com/c2d_cpus",
     "compute.googleapis.com/c3_cpus",
     "compute.googleapis.com/cpus",
-    "compute.googleapis.com/e2_cpus",
     "compute.googleapis.com/m1_cpus",
     "compute.googleapis.com/m2_cpus",
     "compute.googleapis.com/m3_cpus",
