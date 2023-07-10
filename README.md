@@ -13,6 +13,10 @@ Ideal to limit the use of expensive CPUs and GPUs.
 > **Warning**
 > This module cannot be used to grant more quota than would be allowed by admin overrides, producer overrides, or the default limit of the service.
 
+> **Info**
+> You can also limit Compute Engine resources with custom constraints.
+> More details can be found in the [Google Cloud documentation](https://cloud.google.com/compute/docs/access/custom-constraints).
+
 ## Example
 
 1. All [default metrics](https://github.com/Cyclenerd/terraform-google-quota-limits#input_metrics) (input `metrics`) in all [default regions](https://github.com/Cyclenerd/terraform-google-quota-limits#input_regions) (input `regions`) are set to `0`.
