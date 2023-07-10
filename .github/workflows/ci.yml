@@ -17,4 +17,14 @@ jobs:
       - name: Validate
         run: terraform validate
       - name: Formatting
-        run: terraform fmt -check
+        run: terraform fmt -recursive -check -diff -no-color
+      # https://github.com/marketplace/actions/setup-tflint
+      - name: Lint
+        uses: terraform-linters/setup-tflint@v3
+        with:
+          tflint_version: latest
+      - id: tflint
+        run: tflint --recursive --format compact
+      # https://github.com/marketplace/actions/tfsec-action
+      - name: tfsec
+        uses: aquasecurity/tfsec-action@v1.0.0
