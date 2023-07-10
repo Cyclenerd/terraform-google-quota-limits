@@ -15,7 +15,6 @@ compute.googleapis.com/committed_c2_cpus,Committed C2 CPUs
 compute.googleapis.com/committed_c2d_cpus,Committed C2D CPUs
 compute.googleapis.com/committed_c3_cpus,Committed C3 CPUs
 compute.googleapis.com/committed_cpus,Committed CPUs
-compute.googleapis.com/committed_e2_cpus,Committed E2 CPUs
 compute.googleapis.com/committed_licenses,Committed licenses
 compute.googleapis.com/committed_local_ssd_total_storage,Committed local SSD disk reserved (GB)
 compute.googleapis.com/committed_m3_cpus,Committed M3 CPUs
@@ -36,7 +35,7 @@ compute.googleapis.com/cpus_all_regions,CPUs (all regions)
 compute.googleapis.com/default,Queries
 compute.googleapis.com/default_per_region,Queries
 compute.googleapis.com/disks_total_storage,Total persistent disk reserved (GB)
-compute.googleapis.com/e2_cpus,E2 CPUs
+compute.googleapis.com/dynamic_routes_per_region_per_peering_group,Dynamic routes per region per peering group
 compute.googleapis.com/external_managed_forwarding_rules,Regional External Managed Forwarding Rules
 compute.googleapis.com/external_network_lb_forwarding_rules,External network load balancer forwarding rules
 compute.googleapis.com/external_protocol_forwarding_rules,External protocol forwarding rules
