@@ -13,7 +13,7 @@ Ideal to limit the use of expensive CPUs and GPUs.
 > **Warning**
 > This module cannot be used to grant more quota than would be allowed by admin overrides, producer overrides, or the default limit of the service.
 
-> **Info**
+> **Note**
 > You can also limit Compute Engine resources with custom constraints.
 > More details can be found in the [Google Cloud documentation](https://cloud.google.com/compute/docs/access/custom-constraints).
 
