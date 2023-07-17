@@ -27,4 +27,4 @@ jobs:
         run: tflint --recursive --format compact
       # https://github.com/marketplace/actions/tfsec-action
       - name: tfsec
-        uses: aquasecurity/tfsec-action@v1.0.0
+        uses: aquasecurity/tfsec-action@v1.0.3
