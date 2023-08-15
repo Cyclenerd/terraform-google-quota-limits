@@ -32,6 +32,7 @@ compute.googleapis.com/committed_nvidia_v100_gpus,Committed NVIDIA V100 GPUs
 compute.googleapis.com/committed_t2d_cpus,Committed T2D CPUs
 compute.googleapis.com/cpus,CPUs
 compute.googleapis.com/cpus_all_regions,CPUs (all regions)
+compute.googleapis.com/cpus_per_vm_family,CPU count per VM family.
 compute.googleapis.com/default,Queries
 compute.googleapis.com/default_per_region,Queries
 compute.googleapis.com/disks_total_storage,Total persistent disk reserved (GB)
@@ -50,6 +51,7 @@ compute.googleapis.com/global_external_managed_forwarding_rules,Global External 
 compute.googleapis.com/global_external_proxy_lb_backend_services,Global external proxy LB backend services
 compute.googleapis.com/global_in_use_addresses,In-use IP addresses
 compute.googleapis.com/global_internal_addresses,Global internal IP addresses
+compute.googleapis.com/global_internal_managed_backend_services,Global internal managed backend services
 compute.googleapis.com/global_internal_traffic_director_backend_services,Global internal traffic director backend services
 compute.googleapis.com/global_network_endpoint_groups,Network endpoint groups
 compute.googleapis.com/global_public_delegated_prefixes,Global public delegated prefixes
@@ -63,6 +65,7 @@ compute.googleapis.com/heavy_weight_read_requests,Heavy-weight read requests
 compute.googleapis.com/heavy_weight_read_requests_per_region,Heavy-weight read requests
 compute.googleapis.com/heavy_weight_write_requests,Heavy-weight mutation requests
 compute.googleapis.com/heavy_weight_write_requests_per_region,Heavy-weight mutation requests
+compute.googleapis.com/hyperdisk_balanced_total_storage,Hyperdisk Balanced Capacity (GB)
 compute.googleapis.com/images,Images
 compute.googleapis.com/in_use_backup_schedules,In-use backup schedules
 compute.googleapis.com/in_use_snapshot_schedules,In-use snapshot schedules
@@ -193,6 +196,7 @@ compute.googleapis.com/snapshots,Snapshots
 compute.googleapis.com/ssd_total_storage,Total SSD disk reserved (GB)
 compute.googleapis.com/ssl_certificates,SSL certificates
 compute.googleapis.com/static_routes_per_peering_group,Custom static routes per peering group
+compute.googleapis.com/static_routes_per_vpc_network,Custom static routes per VPC Network
 compute.googleapis.com/subnet_ranges_per_peering_group,Subnet ranges Per peering group
 compute.googleapis.com/subnet_ranges_per_vpc_network,Subnetwork ranges per VPC Network
 compute.googleapis.com/subnetworks,Subnetworks
