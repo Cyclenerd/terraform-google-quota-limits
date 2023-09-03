@@ -40,6 +40,7 @@ variable "regions" {
     "europe-north1",
     "europe-southwest1",
     "europe-west1",
+    "europe-west10",
     "europe-west12",
     "europe-west2",
     "europe-west3",
