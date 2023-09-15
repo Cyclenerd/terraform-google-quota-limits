@@ -29,7 +29,10 @@ compute.googleapis.com/committed_nvidia_p100_gpus,Committed NVIDIA P100 GPUs
 compute.googleapis.com/committed_nvidia_p4_gpus,Committed NVIDIA P4 GPUs
 compute.googleapis.com/committed_nvidia_t4_gpus,Committed NVIDIA T4 GPUs
 compute.googleapis.com/committed_nvidia_v100_gpus,Committed NVIDIA V100 GPUs
+compute.googleapis.com/committed_podslice_v4_tpus,Committed TPU v4 PodSlice chips
 compute.googleapis.com/committed_t2d_cpus,Committed T2D CPUs
+compute.googleapis.com/committed_tpu_lite_device_v4,Committed TPU Lite Devices v4
+compute.googleapis.com/committed_tpu_lite_device_v5,Committed TPU Lite Devices v5
 compute.googleapis.com/cpus,CPUs
 compute.googleapis.com/cpus_all_regions,CPUs (all regions)
 compute.googleapis.com/cpus_per_vm_family,CPU count per VM family.
@@ -41,6 +44,8 @@ compute.googleapis.com/external_managed_forwarding_rules,Regional External Manag
 compute.googleapis.com/external_network_lb_forwarding_rules,External network load balancer forwarding rules
 compute.googleapis.com/external_protocol_forwarding_rules,External protocol forwarding rules
 compute.googleapis.com/external_vpn_gateways,External VPN gateways
+compute.googleapis.com/filtered_list_cost_overhead,Filtered list cost overhead
+compute.googleapis.com/filtered_list_cost_overhead_per_region,Filtered list cost overhead
 compute.googleapis.com/firewalls,Firewall rules
 compute.googleapis.com/forwarding_rules,Forwarding rules
 compute.googleapis.com/get_macsec_config_requests,Get Macsec Config requests
@@ -77,6 +82,7 @@ compute.googleapis.com/instance_templates,Instance templates
 compute.googleapis.com/instances,VM instances
 compute.googleapis.com/instances_per_peering_group,Instances Per peering group
 compute.googleapis.com/instances_per_vpc_network,Instances Per VPC Network
+compute.googleapis.com/inter_region_egress_bandwidth,Inter-Region Network Egress Bandwidth (bps) from Compute instances
 compute.googleapis.com/interconnect_attachments_per_region,Interconnect attachments
 compute.googleapis.com/interconnect_attachments_total_mbps,Interconnect attachments total bandwidth (Mbps)
 compute.googleapis.com/interconnects,Interconnects
@@ -182,6 +188,7 @@ compute.googleapis.com/regional_v2_public_advertised_prefixes_delete_requests,Pu
 compute.googleapis.com/regional_v2_public_delegated_prefixes_announce_requests,Regional V2 Public Delegated Prefixes announce requests
 compute.googleapis.com/regional_v2_public_delegated_prefixes_create_requests,Regional V2 Public Delegated Prefixes create requests
 compute.googleapis.com/regional_v2_public_delegated_prefixes_delete_requests,Regional V2 Public Delegated Prefixes delete requests
+compute.googleapis.com/regional_variable_prefix_length_public_delegated_prefixes,Public delegated prefix with variable prefix length.
 compute.googleapis.com/reservations,Reservations
 compute.googleapis.com/resource_policies,Resource policies
 compute.googleapis.com/routers,Routers
