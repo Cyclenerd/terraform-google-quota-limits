@@ -20,7 +20,7 @@ jobs:
         run: terraform fmt -recursive -check -diff -no-color
       # https://github.com/marketplace/actions/setup-tflint
       - name: Lint
-        uses: terraform-linters/setup-tflint@v3
+        uses: terraform-linters/setup-tflint@v4
         with:
           tflint_version: latest
       - id: tflint
