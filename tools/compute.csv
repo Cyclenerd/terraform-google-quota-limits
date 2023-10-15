@@ -29,10 +29,7 @@ compute.googleapis.com/committed_nvidia_p100_gpus,Committed NVIDIA P100 GPUs
 compute.googleapis.com/committed_nvidia_p4_gpus,Committed NVIDIA P4 GPUs
 compute.googleapis.com/committed_nvidia_t4_gpus,Committed NVIDIA T4 GPUs
 compute.googleapis.com/committed_nvidia_v100_gpus,Committed NVIDIA V100 GPUs
-compute.googleapis.com/committed_podslice_v4_tpus,Committed TPU v4 PodSlice chips
 compute.googleapis.com/committed_t2d_cpus,Committed T2D CPUs
-compute.googleapis.com/committed_tpu_lite_device_v4,Committed TPU Lite Devices v4
-compute.googleapis.com/committed_tpu_lite_device_v5,Committed TPU Lite Devices v5
 compute.googleapis.com/cpus,CPUs
 compute.googleapis.com/cpus_all_regions,CPUs (all regions)
 compute.googleapis.com/cpus_per_vm_family,CPU count per VM family.
@@ -135,6 +132,7 @@ compute.googleapis.com/operation_read_requests,Operation read requests
 compute.googleapis.com/operation_read_requests_per_region,Operation read requests
 compute.googleapis.com/packet_mirrorings,Packet mirrorings
 compute.googleapis.com/pd_extreme_total_provisioned_iops,Persistent Disk IOPS
+compute.googleapis.com/peerings_per_vpc_network,Peerings Per VPC Network
 compute.googleapis.com/preemptible_cpus,Preemptible CPUs
 compute.googleapis.com/preemptible_local_ssd_gb,Preemptible Local SSD (GB)
 compute.googleapis.com/preemptible_nvidia_a100_80gb_gpus,Preemptible NVIDIA A100 80GB GPUs
