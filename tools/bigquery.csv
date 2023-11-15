@@ -11,4 +11,12 @@ bigquery.googleapis.com/quota/streaming/insert_bytes_us,Streaming insert bytes i
 bigquery.googleapis.com/quota/tabledata/list_bytes_eu,Tabledata List bytes in EU
 bigquery.googleapis.com/quota/tabledata/list_bytes_regional,Tabledata List bytes
 bigquery.googleapis.com/quota/tabledata/list_bytes_us,Tabledata List bytes in US
+bigquery.googleapis.com/set_iam_policy_requests,SetIAMPolicy requests
+bigquery.googleapis.com/set_iam_policy_requests_aws-ap-northeast-2,SetIAMPolicy requests in aws-ap-northeast-2
+bigquery.googleapis.com/set_iam_policy_requests_aws-ap-southeast-2,SetIAMPolicy requests in aws-ap-southeast-2
+bigquery.googleapis.com/set_iam_policy_requests_aws-eu-west-1,SetIAMPolicy requests in aws-eu-west-1
+bigquery.googleapis.com/set_iam_policy_requests_aws-us-east-1,SetIAMPolicy requests in aws-us-east-1
+bigquery.googleapis.com/set_iam_policy_requests_aws-us-west-2,SetIAMPolicy requests in aws-us-west-2
+bigquery.googleapis.com/set_iam_policy_requests_azure-eastus2,SetIAMPolicy requests in azure-eastus2
+bigquery.googleapis.com/set_iam_policy_requests_global,Global SetIAMPolicy requests
 bigquery.googleapis.com/unlimited_requests,Requests
