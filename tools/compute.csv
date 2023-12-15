@@ -24,6 +24,7 @@ compute.googleapis.com/committed_n2_cpus,Committed N2 CPUs
 compute.googleapis.com/committed_n2d_cpus,Committed N2D CPUs
 compute.googleapis.com/committed_nvidia_a100_80gb_gpus,Committed NVIDIA A100 80GB GPUs
 compute.googleapis.com/committed_nvidia_a100_gpus,Committed NVIDIA A100 GPUs
+compute.googleapis.com/committed_nvidia_h100_gpus,Committed NVIDIA H100 GPUs
 compute.googleapis.com/committed_nvidia_k80_gpus,Committed NVIDIA K80 GPUs
 compute.googleapis.com/committed_nvidia_l4_gpus,Committed NVIDIA L4 GPUs
 compute.googleapis.com/committed_nvidia_p100_gpus,Committed NVIDIA P100 GPUs
@@ -65,12 +66,15 @@ compute.googleapis.com/global_resource_write_requests_per_region,Global resource
 compute.googleapis.com/global_static_addresses,Static IP addresses
 compute.googleapis.com/global_static_byoip_addresses,Static BYOIP IP addresses
 compute.googleapis.com/gpus_all_regions,GPUs (all regions)
+compute.googleapis.com/gpus_per_gpu_family,GPU count per GPU family.
 compute.googleapis.com/health_checks,Health checks
 compute.googleapis.com/heavy_weight_read_requests,Heavy-weight read requests
 compute.googleapis.com/heavy_weight_read_requests_per_region,Heavy-weight read requests
 compute.googleapis.com/heavy_weight_write_requests,Heavy-weight mutation requests
 compute.googleapis.com/heavy_weight_write_requests_per_region,Heavy-weight mutation requests
 compute.googleapis.com/hyperdisk_balanced_storage_pools_advanced_capacity,Hyperdisk Balanced Storage Pools Advanced Capacity (GB)
+compute.googleapis.com/hyperdisk_balanced_total_provisioned_iops,Hyperdisk Balanced IOPS
+compute.googleapis.com/hyperdisk_balanced_total_provisioned_throughput,Hyperdisk Balanced Throughput (MB/s)
 compute.googleapis.com/hyperdisk_balanced_total_storage,Hyperdisk Balanced Capacity (GB)
 compute.googleapis.com/hyperdisk_throughput_storage_pools_advanced_capacity,Hyperdisk Throughput Storage Pools Advanced Capacity (GB)
 compute.googleapis.com/images,Images
@@ -143,6 +147,7 @@ compute.googleapis.com/preemptible_cpus,Preemptible CPUs
 compute.googleapis.com/preemptible_local_ssd_gb,Preemptible Local SSD (GB)
 compute.googleapis.com/preemptible_nvidia_a100_80gb_gpus,Preemptible NVIDIA A100 80GB GPUs
 compute.googleapis.com/preemptible_nvidia_a100_gpus,Preemptible NVIDIA A100 GPUs
+compute.googleapis.com/preemptible_nvidia_h100_gpus,Preemptible NVIDIA H100 GPUs
 compute.googleapis.com/preemptible_nvidia_k80_gpus,Preemptible NVIDIA K80 GPUs
 compute.googleapis.com/preemptible_nvidia_l4_gpus,Preemptible NVIDIA L4 GPUs
 compute.googleapis.com/preemptible_nvidia_l4_vws_gpus,Preemptible NVIDIA L4 Virtual Workstation GPUs
