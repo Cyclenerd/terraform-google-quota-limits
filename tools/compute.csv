@@ -158,6 +158,7 @@ compute.googleapis.com/preemptible_nvidia_p4_vws_gpus,Preemptible NVIDIA P4 Virt
 compute.googleapis.com/preemptible_nvidia_t4_gpus,Preemptible NVIDIA T4 GPUs
 compute.googleapis.com/preemptible_nvidia_t4_vws_gpus,Preemptible NVIDIA T4 Virtual Workstation GPUs
 compute.googleapis.com/preemptible_nvidia_v100_gpus,Preemptible NVIDIA V100 GPUs
+compute.googleapis.com/preemptible_tpu_v5p,Preemptible TPU v5p chips
 compute.googleapis.com/project_set_common_instance_metadata_requests,Project set common instance metadata requests
 compute.googleapis.com/psc_google_apis_forwarding_rules_per_vpc_network,PSC Google APIs Forwarding Rules per VPC Network
 compute.googleapis.com/psc_ilb_consumer_forwarding_rules_per_producer_vpc_network,PSC ILB Consumer Forwarding Rules per Producer VPC Network
@@ -228,6 +229,7 @@ compute.googleapis.com/target_pools,Target pools
 compute.googleapis.com/target_ssl_proxies,Target SSL proxies
 compute.googleapis.com/target_tcp_proxies,Target TCP proxies
 compute.googleapis.com/target_vpn_gateways,Target VPN gateways
+compute.googleapis.com/tpu_v5p,TPU v5p chips
 compute.googleapis.com/url_maps,URL maps
 compute.googleapis.com/vm_to_internet_egress_bandwidth,VM to Internet Egress Bandwidth Mbps
 compute.googleapis.com/vpn_gateways,VPN gateways
