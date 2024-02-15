@@ -32,6 +32,7 @@ compute.googleapis.com/committed_nvidia_p4_gpus,Committed NVIDIA P4 GPUs
 compute.googleapis.com/committed_nvidia_t4_gpus,Committed NVIDIA T4 GPUs
 compute.googleapis.com/committed_nvidia_v100_gpus,Committed NVIDIA V100 GPUs
 compute.googleapis.com/committed_t2d_cpus,Committed T2D CPUs
+compute.googleapis.com/committed_z3_cpus,Committed Z3 CPUs
 compute.googleapis.com/cpus,CPUs
 compute.googleapis.com/cpus_all_regions,CPUs (all regions)
 compute.googleapis.com/cpus_per_vm_family,CPU count per VM family.
@@ -56,6 +57,7 @@ compute.googleapis.com/global_external_managed_forwarding_rules,Global External 
 compute.googleapis.com/global_external_proxy_lb_backend_services,Global external proxy LB backend services
 compute.googleapis.com/global_in_use_addresses,In-use IP addresses
 compute.googleapis.com/global_internal_addresses,Global internal IP addresses
+compute.googleapis.com/global_internal_managed_backend_buckets,Global internal managed backend buckets
 compute.googleapis.com/global_internal_managed_backend_services,Global internal managed backend services
 compute.googleapis.com/global_internal_managed_forwarding_rules_per_region_per_vpc_network,Cross Regional Internal Managed Load Balancer Forwarding Rules per region per VPC Network
 compute.googleapis.com/global_internal_traffic_director_backend_services,Global internal traffic director backend services
@@ -158,6 +160,8 @@ compute.googleapis.com/preemptible_nvidia_p4_vws_gpus,Preemptible NVIDIA P4 Virt
 compute.googleapis.com/preemptible_nvidia_t4_gpus,Preemptible NVIDIA T4 GPUs
 compute.googleapis.com/preemptible_nvidia_t4_vws_gpus,Preemptible NVIDIA T4 Virtual Workstation GPUs
 compute.googleapis.com/preemptible_nvidia_v100_gpus,Preemptible NVIDIA V100 GPUs
+compute.googleapis.com/preemptible_tpu_lite_podslice_v5,Preemptible TPU v5 Lite PodSlice chips
+compute.googleapis.com/preemptible_tpu_podslice_v4,Preemptible TPU v4 PodSlice chips
 compute.googleapis.com/preemptible_tpu_v5p,Preemptible TPU v5p chips
 compute.googleapis.com/project_set_common_instance_metadata_requests,Project set common instance metadata requests
 compute.googleapis.com/psc_google_apis_forwarding_rules_per_vpc_network,PSC Google APIs Forwarding Rules per VPC Network
@@ -229,6 +233,8 @@ compute.googleapis.com/target_pools,Target pools
 compute.googleapis.com/target_ssl_proxies,Target SSL proxies
 compute.googleapis.com/target_tcp_proxies,Target TCP proxies
 compute.googleapis.com/target_vpn_gateways,Target VPN gateways
+compute.googleapis.com/tpu_lite_podslice_v5,TPU v5 Lite PodSlice chips
+compute.googleapis.com/tpu_podslice_v4,TPU v4 PodSlice chips
 compute.googleapis.com/tpu_v5p,TPU v5p chips
 compute.googleapis.com/url_maps,URL maps
 compute.googleapis.com/vm_to_internet_egress_bandwidth,VM to Internet Egress Bandwidth Mbps
