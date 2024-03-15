@@ -1,4 +1,6 @@
 METRIC,NAME
+storage.googleapis.com/dualregion_google_egress_bandwidth,Dualregion Google Egress Bandwidth
+storage.googleapis.com/dualregion_internet_egress_bandwidth,Dualregion Internet Egress Bandwidth
 storage.googleapis.com/google_egress_bandwidth,Google Egress Bandwidth
 storage.googleapis.com/internet_egress_bandwidth,Internet Egress Bandwidth
 storage.googleapis.com/multiregion_google_egress_bandwidth,MultiRegion Google Egress Bandwidth

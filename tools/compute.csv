@@ -22,6 +22,7 @@ compute.googleapis.com/committed_m3_cpus,Committed M3 CPUs
 compute.googleapis.com/committed_memory_optimized_cpus,Committed Memory Optimized CPUs
 compute.googleapis.com/committed_n2_cpus,Committed N2 CPUs
 compute.googleapis.com/committed_n2d_cpus,Committed N2D CPUs
+compute.googleapis.com/committed_n4_cpus,Committed N4 CPUs
 compute.googleapis.com/committed_nvidia_a100_80gb_gpus,Committed NVIDIA A100 80GB GPUs
 compute.googleapis.com/committed_nvidia_a100_gpus,Committed NVIDIA A100 GPUs
 compute.googleapis.com/committed_nvidia_h100_gpus,Committed NVIDIA H100 GPUs
@@ -48,6 +49,8 @@ compute.googleapis.com/filtered_list_cost_overhead,Filtered list cost overhead
 compute.googleapis.com/filtered_list_cost_overhead_per_region,Filtered list cost overhead
 compute.googleapis.com/firewalls,Firewall rules
 compute.googleapis.com/forwarding_rules,Forwarding rules
+compute.googleapis.com/fqdns_per_global_network_firewall_policy,FQDN per global network firewall policy
+compute.googleapis.com/fqdns_per_regional_network_firewall_policy,FQDN per regional network firewall policy
 compute.googleapis.com/get_macsec_config_requests,Get Macsec Config requests
 compute.googleapis.com/get_serial_port_output_requests,Instance GetSerialPortOutput requests
 compute.googleapis.com/get_serial_port_output_requests_per_region,Instance GetSerialPortOutput requests
@@ -167,6 +170,7 @@ compute.googleapis.com/project_set_common_instance_metadata_requests,Project set
 compute.googleapis.com/psc_google_apis_forwarding_rules_per_vpc_network,PSC Google APIs Forwarding Rules per VPC Network
 compute.googleapis.com/psc_ilb_consumer_forwarding_rules_per_producer_vpc_network,PSC ILB Consumer Forwarding Rules per Producer VPC Network
 compute.googleapis.com/psc_internal_lb_forwarding_rules,PSC Internal LB Forwarding Rules
+compute.googleapis.com/psc_propagated_connections_per_vpc_network,PSC propagated connections per VPC Network
 compute.googleapis.com/public_advertised_prefixes,Public advertised prefixes
 compute.googleapis.com/read_requests,Read requests
 compute.googleapis.com/read_requests_per_region,Read requests
@@ -181,6 +185,7 @@ compute.googleapis.com/regional_instance_templates,Regional Instance templates
 compute.googleapis.com/regional_internal_lb_backend_services,Regional internal LB backend services
 compute.googleapis.com/regional_internal_managed_backend_services,Regional internal managed backend services
 compute.googleapis.com/regional_internal_managed_forwarding_rules_per_region_per_vpc_network,Regional Internal Managed Forwarding Rules per region per VPC Network
+compute.googleapis.com/regional_internal_traffic_director_backend_services,Regional internal traffic director backend services
 compute.googleapis.com/regional_net_lb_security_policies,Network load balancing security policies
 compute.googleapis.com/regional_net_lb_security_policy_rule_attributes,Network load balacing security policy rule attributes
 compute.googleapis.com/regional_net_lb_security_policy_rules,Network load balancing security policy rules
@@ -210,6 +215,8 @@ compute.googleapis.com/reservations,Reservations
 compute.googleapis.com/resource_policies,Resource policies
 compute.googleapis.com/routers,Routers
 compute.googleapis.com/routes,Routes
+compute.googleapis.com/rule_attributes_per_global_network_firewall_policy,Rule attributes per global network firewall policy
+compute.googleapis.com/rule_attributes_per_regional_network_firewall_policy,Rule attributes per regional network firewall policy
 compute.googleapis.com/security_policies,Security policies
 compute.googleapis.com/security_policy_ceval_rules,Security policy rules language rules
 compute.googleapis.com/security_policy_rules,Security policy rules
