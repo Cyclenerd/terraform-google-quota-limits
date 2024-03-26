@@ -25,6 +25,7 @@ variable "regions" {
   type        = list(string)
   nullable    = false
   default = [
+    "africa-south1",
     "asia-east1",
     "asia-east2",
     "asia-northeast1",
@@ -85,11 +86,14 @@ variable "metrics" {
     "compute.googleapis.com/nvidia_a100_gpus",
     "compute.googleapis.com/nvidia_k80_gpus",
     "compute.googleapis.com/nvidia_p100_gpus",
+    "compute.googleapis.com/nvidia_p100_vws_gpus",
     "compute.googleapis.com/nvidia_p4_gpus",
     "compute.googleapis.com/nvidia_p4_vws_gpus",
     "compute.googleapis.com/nvidia_t4_gpus",
     "compute.googleapis.com/nvidia_t4_vws_gpus",
     "compute.googleapis.com/nvidia_v100_gpus",
+    "compute.googleapis.com/nvidia_l4_gpus",
+    "compute.googleapis.com/nvidia_l4_vws_gpus",
     "compute.googleapis.com/t2a_cpus",
     "compute.googleapis.com/t2d_cpus",
   ]
