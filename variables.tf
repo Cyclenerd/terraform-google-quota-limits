@@ -85,6 +85,8 @@ variable "metrics" {
     "compute.googleapis.com/nvidia_a100_80gb_gpus",
     "compute.googleapis.com/nvidia_a100_gpus",
     "compute.googleapis.com/nvidia_k80_gpus",
+    "compute.googleapis.com/nvidia_l4_gpus",
+    "compute.googleapis.com/nvidia_l4_vws_gpus",
     "compute.googleapis.com/nvidia_p100_gpus",
     "compute.googleapis.com/nvidia_p100_vws_gpus",
     "compute.googleapis.com/nvidia_p4_gpus",
@@ -92,8 +94,6 @@ variable "metrics" {
     "compute.googleapis.com/nvidia_t4_gpus",
     "compute.googleapis.com/nvidia_t4_vws_gpus",
     "compute.googleapis.com/nvidia_v100_gpus",
-    "compute.googleapis.com/nvidia_l4_gpus",
-    "compute.googleapis.com/nvidia_l4_vws_gpus",
     "compute.googleapis.com/t2a_cpus",
     "compute.googleapis.com/t2d_cpus",
   ]
