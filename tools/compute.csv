@@ -26,6 +26,7 @@ compute.googleapis.com/committed_n4_cpus,Committed N4 CPUs
 compute.googleapis.com/committed_nvidia_a100_80gb_gpus,Committed NVIDIA A100 80GB GPUs
 compute.googleapis.com/committed_nvidia_a100_gpus,Committed NVIDIA A100 GPUs
 compute.googleapis.com/committed_nvidia_h100_gpus,Committed NVIDIA H100 GPUs
+compute.googleapis.com/committed_nvidia_h100_mega_gpus,Committed NVIDIA H100 MEGA GPUs
 compute.googleapis.com/committed_nvidia_k80_gpus,Committed NVIDIA K80 GPUs
 compute.googleapis.com/committed_nvidia_l4_gpus,Committed NVIDIA L4 GPUs
 compute.googleapis.com/committed_nvidia_p100_gpus,Committed NVIDIA P100 GPUs
@@ -153,6 +154,7 @@ compute.googleapis.com/preemptible_local_ssd_gb,Preemptible Local SSD (GB)
 compute.googleapis.com/preemptible_nvidia_a100_80gb_gpus,Preemptible NVIDIA A100 80GB GPUs
 compute.googleapis.com/preemptible_nvidia_a100_gpus,Preemptible NVIDIA A100 GPUs
 compute.googleapis.com/preemptible_nvidia_h100_gpus,Preemptible NVIDIA H100 GPUs
+compute.googleapis.com/preemptible_nvidia_h100_mega_gpus,Preemptible NVIDIA H100 MEGA GPUs
 compute.googleapis.com/preemptible_nvidia_k80_gpus,Preemptible NVIDIA K80 GPUs
 compute.googleapis.com/preemptible_nvidia_l4_gpus,Preemptible NVIDIA L4 GPUs
 compute.googleapis.com/preemptible_nvidia_l4_vws_gpus,Preemptible NVIDIA L4 Virtual Workstation GPUs
@@ -199,6 +201,7 @@ compute.googleapis.com/regional_public_delegated_prefixes_delete_requests_per_re
 compute.googleapis.com/regional_security_policies,Regional security policies
 compute.googleapis.com/regional_security_policy_advanced_rules,Regional security policy rules with an advanced match condition
 compute.googleapis.com/regional_security_policy_rules,Regional security policy rules
+compute.googleapis.com/regional_ssl_policies,Regional SSL policies
 compute.googleapis.com/regional_static_addresses,Static IP addresses
 compute.googleapis.com/regional_static_byoip_addresses,Static BYOIP IP addresses
 compute.googleapis.com/regional_static_external_ipv6_address_ranges,External IPv6 address ranges
@@ -226,6 +229,7 @@ compute.googleapis.com/simulate_maintenance_event_requests_per_region,Instance S
 compute.googleapis.com/snapshots,Snapshots
 compute.googleapis.com/ssd_total_storage,Total SSD disk reserved (GB)
 compute.googleapis.com/ssl_certificates,SSL certificates
+compute.googleapis.com/ssl_policies,Global SSL policies
 compute.googleapis.com/static_routes_per_peering_group,Custom static routes per peering group
 compute.googleapis.com/static_routes_per_vpc_network,Custom static routes per VPC Network
 compute.googleapis.com/subnet_ranges_per_peering_group,Subnet ranges Per peering group
