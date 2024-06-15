@@ -25,6 +25,7 @@ compute.googleapis.com/committed_n2d_cpus,Committed N2D CPUs
 compute.googleapis.com/committed_n4_cpus,Committed N4 CPUs
 compute.googleapis.com/committed_nvidia_a100_80gb_gpus,Committed NVIDIA A100 80GB GPUs
 compute.googleapis.com/committed_nvidia_a100_gpus,Committed NVIDIA A100 GPUs
+compute.googleapis.com/committed_nvidia_b200_gpus,Committed NVIDIA B200 GPUs
 compute.googleapis.com/committed_nvidia_h100_gpus,Committed NVIDIA H100 GPUs
 compute.googleapis.com/committed_nvidia_h100_mega_gpus,Committed NVIDIA H100 MEGA GPUs
 compute.googleapis.com/committed_nvidia_k80_gpus,Committed NVIDIA K80 GPUs
@@ -79,10 +80,13 @@ compute.googleapis.com/heavy_weight_read_requests_per_region,Heavy-weight read r
 compute.googleapis.com/heavy_weight_write_requests,Heavy-weight mutation requests
 compute.googleapis.com/heavy_weight_write_requests_per_region,Heavy-weight mutation requests
 compute.googleapis.com/hyperdisk_balanced_storage_pools_advanced_capacity,Hyperdisk Balanced Storage Pools Advanced Capacity (GB)
+compute.googleapis.com/hyperdisk_balanced_storage_pools_advanced_iops,Hyperdisk Balanced Storage Pools Advanced IOPs
+compute.googleapis.com/hyperdisk_balanced_storage_pools_advanced_throughput,Hyperdisk Balanced Storage Pools Advanced Throughput (MB/s)
 compute.googleapis.com/hyperdisk_balanced_total_provisioned_iops,Hyperdisk Balanced IOPS
 compute.googleapis.com/hyperdisk_balanced_total_provisioned_throughput,Hyperdisk Balanced Throughput (MB/s)
 compute.googleapis.com/hyperdisk_balanced_total_storage,Hyperdisk Balanced Capacity (GB)
 compute.googleapis.com/hyperdisk_throughput_storage_pools_advanced_capacity,Hyperdisk Throughput Storage Pools Advanced Capacity (GB)
+compute.googleapis.com/hyperdisk_throughput_storage_pools_advanced_throughput,Hyperdisk Throughput Storage Pools Advanced Throughput (MB/s)
 compute.googleapis.com/images,Images
 compute.googleapis.com/in_use_backup_schedules,In-use backup schedules
 compute.googleapis.com/in_use_snapshot_schedules,In-use snapshot schedules
@@ -107,7 +111,7 @@ compute.googleapis.com/internal_managed_forwarding_rules_per_vpc_network,Interna
 compute.googleapis.com/internal_protocol_forwarding_rules_per_peering_group,Internal Protocol Forwarding Rules per peering group
 compute.googleapis.com/internal_protocol_forwarding_rules_per_vpc_network,Internal Protocol Forwarding Rules per VPC Network
 compute.googleapis.com/internal_traffic_director_forwarding_rules,Traffic director forwarding rules
-compute.googleapis.com/ip_aliases_per_peering_group,IP Aliases per regional VPC Network
+compute.googleapis.com/ip_aliases_per_peering_group,IP Aliases per peering group
 compute.googleapis.com/ip_aliases_per_vpc_network,IP Aliases per VPC Network
 compute.googleapis.com/license_insert_requests,License insert requests
 compute.googleapis.com/license_verification_requests,Requests related to license verification
@@ -153,6 +157,7 @@ compute.googleapis.com/preemptible_cpus,Preemptible CPUs
 compute.googleapis.com/preemptible_local_ssd_gb,Preemptible Local SSD (GB)
 compute.googleapis.com/preemptible_nvidia_a100_80gb_gpus,Preemptible NVIDIA A100 80GB GPUs
 compute.googleapis.com/preemptible_nvidia_a100_gpus,Preemptible NVIDIA A100 GPUs
+compute.googleapis.com/preemptible_nvidia_b200_gpus,Preemptible NVIDIA B200 GPUs
 compute.googleapis.com/preemptible_nvidia_h100_gpus,Preemptible NVIDIA H100 GPUs
 compute.googleapis.com/preemptible_nvidia_h100_mega_gpus,Preemptible NVIDIA H100 MEGA GPUs
 compute.googleapis.com/preemptible_nvidia_k80_gpus,Preemptible NVIDIA K80 GPUs
