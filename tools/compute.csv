@@ -89,10 +89,14 @@ compute.googleapis.com/hyperdisk_balanced_storage_pools_advanced_throughput,Hype
 compute.googleapis.com/hyperdisk_balanced_total_provisioned_iops,Hyperdisk Balanced IOPS
 compute.googleapis.com/hyperdisk_balanced_total_provisioned_throughput,Hyperdisk Balanced Throughput (MB/s)
 compute.googleapis.com/hyperdisk_balanced_total_storage,Hyperdisk Balanced Capacity (GB)
+compute.googleapis.com/hyperdisk_extreme_total_provisioned_iops,Hyperdisk Extreme IOPS
+compute.googleapis.com/hyperdisk_extreme_total_storage,Hyperdisk Extreme Capacity (GB)
 compute.googleapis.com/hyperdisk_ml_total_provisioned_throughput,Hyperdisk ML Throughput (MB/s)
 compute.googleapis.com/hyperdisk_ml_total_storage,Hyperdisk ML Capacity (GB)
 compute.googleapis.com/hyperdisk_throughput_storage_pools_advanced_capacity,Hyperdisk Throughput Storage Pools Advanced Capacity (GB)
 compute.googleapis.com/hyperdisk_throughput_storage_pools_advanced_throughput,Hyperdisk Throughput Storage Pools Advanced Throughput (MB/s)
+compute.googleapis.com/hyperdisk_throughput_total_provisioned_throughput,Hyperdisk Throughput Throughput (MB/s)
+compute.googleapis.com/hyperdisk_throughput_total_storage,Hyperdisk Throughput Capacity (GB)
 compute.googleapis.com/images,Images
 compute.googleapis.com/in_use_backup_schedules,In-use backup schedules
 compute.googleapis.com/in_use_snapshot_schedules,In-use snapshot schedules

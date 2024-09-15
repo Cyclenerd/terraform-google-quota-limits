@@ -1,6 +1,7 @@
 METRIC,NAME
 bigquery.googleapis.com/iam_policy_requests,IamPolicy requests
 bigquery.googleapis.com/quota/extract/bytes,Extract bytes
+bigquery.googleapis.com/quota/query/alloydb_federated_query_cross_region_bytes,AlloyDB federated query cross region bytes
 bigquery.googleapis.com/quota/query/cloud_sql_federated_query_cross_region_bytes,Cloud SQL federated query cross region bytes
 bigquery.googleapis.com/quota/query/cross_cloud_transfer_bytes,Cross cloud transferred bytes
 bigquery.googleapis.com/quota/query/omni_query_bytes,BigQuery Omni materialized query bytes
