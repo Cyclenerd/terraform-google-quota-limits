@@ -1,5 +1,6 @@
 METRIC,NAME
 storage.googleapis.com/anywhere_cache_size,Anywhere Cache Size
+storage.googleapis.com/anywhere_cache_storage_size,Anywhere Cache Storage Size
 storage.googleapis.com/dualregion_google_egress_bandwidth,Dualregion Google Egress Bandwidth
 storage.googleapis.com/dualregion_internet_egress_bandwidth,Dualregion Internet Egress Bandwidth
 storage.googleapis.com/google_egress_bandwidth,Google Egress Bandwidth
