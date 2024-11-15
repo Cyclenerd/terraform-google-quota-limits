@@ -257,6 +257,7 @@ compute.googleapis.com/target_vpn_gateways,Target VPN gateways
 compute.googleapis.com/tpu_lite_podslice_v5,TPU v5 Lite PodSlice chips
 compute.googleapis.com/tpu_podslice_v4,TPU v4 PodSlice chips
 compute.googleapis.com/tpu_v5p,TPU v5p chips
+compute.googleapis.com/tpus_per_tpu_family,TPU count per TPU family.
 compute.googleapis.com/url_maps,URL maps
 compute.googleapis.com/vm_to_internet_egress_bandwidth,VM to Internet Egress Bandwidth Mbps
 compute.googleapis.com/vpn_gateways,VPN gateways
