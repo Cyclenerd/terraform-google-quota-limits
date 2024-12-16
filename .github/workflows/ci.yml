@@ -12,12 +12,16 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      # https://github.com/hashicorp/setup-terraform
+      - uses: hashicorp/setup-terraform@v3
       - name: Init
         run: terraform init
       - name: Validate
         run: terraform validate
       - name: Formatting
         run: terraform fmt -recursive -check -diff -no-color
+
       # https://github.com/marketplace/actions/setup-tflint
       - name: Lint
         uses: terraform-linters/setup-tflint@v4
@@ -25,6 +29,7 @@ jobs:
           tflint_version: latest
       - id: tflint
         run: tflint --recursive --format compact
+
       # https://github.com/marketplace/actions/tfsec-action
       - name: tfsec
         uses: aquasecurity/tfsec-action@v1.0.3
