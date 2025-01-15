@@ -39,6 +39,7 @@ compute.googleapis.com/committed_nvidia_p4_gpus,Committed NVIDIA P4 GPUs
 compute.googleapis.com/committed_nvidia_t4_gpus,Committed NVIDIA T4 GPUs
 compute.googleapis.com/committed_nvidia_v100_gpus,Committed NVIDIA V100 GPUs
 compute.googleapis.com/committed_t2d_cpus,Committed T2D CPUs
+compute.googleapis.com/committed_x4_cpus,Committed X4 CPUs
 compute.googleapis.com/committed_z3_cpus,Committed Z3 CPUs
 compute.googleapis.com/cpus,CPUs
 compute.googleapis.com/cpus_all_regions,CPUs (all regions)
