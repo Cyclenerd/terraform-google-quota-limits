@@ -21,6 +21,7 @@ compute.googleapis.com/committed_c2_cpus,Committed C2 CPUs
 compute.googleapis.com/committed_c2d_cpus,Committed C2D CPUs
 compute.googleapis.com/committed_c3_cpus,Committed C3 CPUs
 compute.googleapis.com/committed_cpus,Committed CPUs
+compute.googleapis.com/committed_h4d_local_ssd_total_storage,Committed H4D local SSD disk reserved (GB)
 compute.googleapis.com/committed_licenses,Committed licenses
 compute.googleapis.com/committed_local_ssd_total_storage,Committed local SSD disk reserved (GB)
 compute.googleapis.com/committed_m3_cpus,Committed M3 CPUs
@@ -44,6 +45,7 @@ compute.googleapis.com/committed_z3_cpus,Committed Z3 CPUs
 compute.googleapis.com/cpus,CPUs
 compute.googleapis.com/cpus_all_regions,CPUs (all regions)
 compute.googleapis.com/cpus_per_vm_family,CPU count per VM family.
+compute.googleapis.com/cross_site_networks,CrossSiteNetwork
 compute.googleapis.com/default,Queries
 compute.googleapis.com/default_per_region,Queries
 compute.googleapis.com/disks_total_storage,Total persistent disk reserved (GB)
@@ -161,6 +163,8 @@ compute.googleapis.com/packet_mirrorings,Packet mirrorings
 compute.googleapis.com/pd_extreme_total_provisioned_iops,Persistent Disk IOPS
 compute.googleapis.com/peerings_per_vpc_network,Peerings Per VPC Network
 compute.googleapis.com/preemptible_cpus,Preemptible CPUs
+compute.googleapis.com/preemptible_h4d_cpus,Preemptible H4D CPUs
+compute.googleapis.com/preemptible_h4d_local_ssd_gb,Preemptible H4D Local SSD (GB)
 compute.googleapis.com/preemptible_local_ssd_gb,Preemptible Local SSD (GB)
 compute.googleapis.com/preemptible_nvidia_a100_80gb_gpus,Preemptible NVIDIA A100 80GB GPUs
 compute.googleapis.com/preemptible_nvidia_a100_gpus,Preemptible NVIDIA A100 GPUs
@@ -263,4 +267,7 @@ compute.googleapis.com/url_maps,URL maps
 compute.googleapis.com/vm_to_internet_egress_bandwidth,VM to Internet Egress Bandwidth Mbps
 compute.googleapis.com/vpn_gateways,VPN gateways
 compute.googleapis.com/vpn_tunnels,VPN tunnels
+compute.googleapis.com/wire_groups,Wire Groups Per Project
+compute.googleapis.com/wire_groups_gold_unmetered_bandwidth_gbps,Wire groups gold unmetered bandwidth
+compute.googleapis.com/wire_groups_per_interconnect,Wire groups per Interconnect
 compute.googleapis.com/xpn_service_projects,Cross Project Networking Service projects
