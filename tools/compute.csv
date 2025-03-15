@@ -25,6 +25,7 @@ compute.googleapis.com/committed_h4d_local_ssd_total_storage,Committed H4D local
 compute.googleapis.com/committed_licenses,Committed licenses
 compute.googleapis.com/committed_local_ssd_total_storage,Committed local SSD disk reserved (GB)
 compute.googleapis.com/committed_m3_cpus,Committed M3 CPUs
+compute.googleapis.com/committed_m4_cpus,Committed M4 CPUs
 compute.googleapis.com/committed_memory_optimized_cpus,Committed Memory Optimized CPUs
 compute.googleapis.com/committed_n2_cpus,Committed N2 CPUs
 compute.googleapis.com/committed_n2d_cpus,Committed N2D CPUs
@@ -45,7 +46,7 @@ compute.googleapis.com/committed_z3_cpus,Committed Z3 CPUs
 compute.googleapis.com/cpus,CPUs
 compute.googleapis.com/cpus_all_regions,CPUs (all regions)
 compute.googleapis.com/cpus_per_vm_family,CPU count per VM family.
-compute.googleapis.com/cross_site_networks,CrossSiteNetwork
+compute.googleapis.com/cross_site_networks,Cross-Site Networks
 compute.googleapis.com/default,Queries
 compute.googleapis.com/default_per_region,Queries
 compute.googleapis.com/disks_total_storage,Total persistent disk reserved (GB)
@@ -63,6 +64,7 @@ compute.googleapis.com/fqdns_per_regional_network_firewall_policy,FQDN per regio
 compute.googleapis.com/get_macsec_config_requests,Get Macsec Config requests
 compute.googleapis.com/get_serial_port_output_requests,Instance GetSerialPortOutput requests
 compute.googleapis.com/get_serial_port_output_requests_per_region,Instance GetSerialPortOutput requests
+compute.googleapis.com/global_cache_invalidation_requests,Cache invalidation requests
 compute.googleapis.com/global_concurrent_operations,Concurrent global operations per project
 compute.googleapis.com/global_external_managed_backend_services,Global external managed backend services
 compute.googleapis.com/global_external_managed_forwarding_rules,Global External Managed Forwarding Rules
@@ -75,10 +77,13 @@ compute.googleapis.com/global_internal_managed_forwarding_rules_per_region_per_v
 compute.googleapis.com/global_internal_traffic_director_backend_services,Global internal traffic director backend services
 compute.googleapis.com/global_network_endpoint_groups,Network endpoint groups
 compute.googleapis.com/global_public_delegated_prefixes,Global public delegated prefixes
+compute.googleapis.com/global_reads,Read requests
+compute.googleapis.com/global_requests,Requests
 compute.googleapis.com/global_resource_write_requests,Global resource mutation requests
 compute.googleapis.com/global_resource_write_requests_per_region,Global resource mutation requests
 compute.googleapis.com/global_static_addresses,Static IP addresses
 compute.googleapis.com/global_static_byoip_addresses,Static BYOIP IP addresses
+compute.googleapis.com/global_writes,Mutation requests
 compute.googleapis.com/gpus_all_regions,GPUs (all regions)
 compute.googleapis.com/gpus_per_gpu_family,GPU count per GPU family.
 compute.googleapis.com/health_checks,Health checks
@@ -86,16 +91,19 @@ compute.googleapis.com/heavy_weight_read_requests,Heavy-weight read requests
 compute.googleapis.com/heavy_weight_read_requests_per_region,Heavy-weight read requests
 compute.googleapis.com/heavy_weight_write_requests,Heavy-weight mutation requests
 compute.googleapis.com/heavy_weight_write_requests_per_region,Heavy-weight mutation requests
+compute.googleapis.com/hyperdisk_balanced_confidential_total_storage,Hyperdisk Balanced Capacity in Confidential Mode (GB)
 compute.googleapis.com/hyperdisk_balanced_storage_pools_advanced_capacity,Hyperdisk Balanced Storage Pools Advanced Capacity (GB)
 compute.googleapis.com/hyperdisk_balanced_storage_pools_advanced_iops,Hyperdisk Balanced Storage Pools Advanced IOPs
 compute.googleapis.com/hyperdisk_balanced_storage_pools_advanced_throughput,Hyperdisk Balanced Storage Pools Advanced Throughput (MB/s)
 compute.googleapis.com/hyperdisk_balanced_total_provisioned_iops,Hyperdisk Balanced IOPS
 compute.googleapis.com/hyperdisk_balanced_total_provisioned_throughput,Hyperdisk Balanced Throughput (MB/s)
 compute.googleapis.com/hyperdisk_balanced_total_storage,Hyperdisk Balanced Capacity (GB)
+compute.googleapis.com/hyperdisk_extreme_total_storage,Hyperdisk Extreme Capacity (GB)
 compute.googleapis.com/hyperdisk_ml_total_provisioned_throughput,Hyperdisk ML Throughput (MB/s)
 compute.googleapis.com/hyperdisk_ml_total_storage,Hyperdisk ML Capacity (GB)
 compute.googleapis.com/hyperdisk_throughput_storage_pools_advanced_capacity,Hyperdisk Throughput Storage Pools Advanced Capacity (GB)
 compute.googleapis.com/hyperdisk_throughput_storage_pools_advanced_throughput,Hyperdisk Throughput Storage Pools Advanced Throughput (MB/s)
+compute.googleapis.com/hyperdisk_throughput_total_storage,Hyperdisk Throughput Capacity (GB)
 compute.googleapis.com/images,Images
 compute.googleapis.com/in_use_backup_schedules,In-use backup schedules
 compute.googleapis.com/in_use_snapshot_schedules,In-use snapshot schedules
@@ -127,6 +135,8 @@ compute.googleapis.com/license_verification_requests,Requests related to license
 compute.googleapis.com/license_verification_requests_per_region,Requests related to license verification
 compute.googleapis.com/list_requests,List requests
 compute.googleapis.com/list_requests_per_region,List requests
+compute.googleapis.com/list_usable_requests,ListUsable requests
+compute.googleapis.com/list_usable_requests_per_region,ListUsable requests
 compute.googleapis.com/local_ssd_total_storage,Total Local SSD disk reserved (GB)
 compute.googleapis.com/local_ssd_total_storage_per_vm_family,Local SSD disk per VM family (GB).
 compute.googleapis.com/m1_cpus,M1 CPUs
@@ -191,6 +201,7 @@ compute.googleapis.com/psc_propagated_connections_per_vpc_network,PSC propagated
 compute.googleapis.com/public_advertised_prefixes,Public advertised prefixes
 compute.googleapis.com/read_requests,Read requests
 compute.googleapis.com/read_requests_per_region,Read requests
+compute.googleapis.com/reads_per_region,Read requests
 compute.googleapis.com/regional_autoscalers,Regional autoscalers
 compute.googleapis.com/regional_concurrent_operations,Concurrent regional operations per project
 compute.googleapis.com/regional_external_managed_backend_services,Regional external managed backend services
@@ -229,6 +240,7 @@ compute.googleapis.com/regional_v2_public_delegated_prefixes_announce_requests,R
 compute.googleapis.com/regional_v2_public_delegated_prefixes_create_requests,Regional V2 Public Delegated Prefixes create requests
 compute.googleapis.com/regional_v2_public_delegated_prefixes_delete_requests,Regional V2 Public Delegated Prefixes delete requests
 compute.googleapis.com/regional_variable_prefix_length_public_delegated_prefixes,Public delegated prefix with variable prefix length.
+compute.googleapis.com/requests_per_region,Requests
 compute.googleapis.com/reservations,Reservations
 compute.googleapis.com/resource_policies,Resource policies
 compute.googleapis.com/routers,Routers
@@ -267,7 +279,8 @@ compute.googleapis.com/url_maps,URL maps
 compute.googleapis.com/vm_to_internet_egress_bandwidth,VM to Internet Egress Bandwidth Mbps
 compute.googleapis.com/vpn_gateways,VPN gateways
 compute.googleapis.com/vpn_tunnels,VPN tunnels
-compute.googleapis.com/wire_groups,Wire Groups Per Project
+compute.googleapis.com/wire_groups,Wire Groups
 compute.googleapis.com/wire_groups_gold_unmetered_bandwidth_gbps,Wire groups gold unmetered bandwidth
 compute.googleapis.com/wire_groups_per_interconnect,Wire groups per Interconnect
+compute.googleapis.com/writes_per_region,Mutation requests
 compute.googleapis.com/xpn_service_projects,Cross Project Networking Service projects
