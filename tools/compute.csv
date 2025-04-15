@@ -53,6 +53,7 @@ compute.googleapis.com/disks_total_storage,Total persistent disk reserved (GB)
 compute.googleapis.com/dynamic_routes_per_region_per_peering_group,Dynamic routes per region per peering group
 compute.googleapis.com/external_managed_forwarding_rules,Regional External Managed Forwarding Rules
 compute.googleapis.com/external_network_lb_forwarding_rules,External passthrough Network Load Balancer forwarding rules
+compute.googleapis.com/external_protocol_forwarding_ha_rules,"External protocol forwarding HA rules "
 compute.googleapis.com/external_protocol_forwarding_rules,External protocol forwarding rules
 compute.googleapis.com/external_vpn_gateways,External VPN gateways
 compute.googleapis.com/filtered_list_cost_overhead,Filtered list cost overhead
@@ -125,6 +126,7 @@ compute.googleapis.com/internal_lb_forwarding_rules_per_peering_group,Internal p
 compute.googleapis.com/internal_lb_forwarding_rules_per_vpc_network,Internal passthrough Network Load Balancer forwarding rules per VPC network
 compute.googleapis.com/internal_managed_forwarding_rules_per_peering_group,Internal Managed Forwarding Rules per peering group
 compute.googleapis.com/internal_managed_forwarding_rules_per_vpc_network,Internal Managed Forwarding Rules per VPC Network
+compute.googleapis.com/internal_protocol_forwarding_ha_rules_per_vpc_network,Internal Protocol Forwarding HA Rules per VPC Network
 compute.googleapis.com/internal_protocol_forwarding_rules_per_peering_group,Internal protocol forwarding rules per peering group
 compute.googleapis.com/internal_protocol_forwarding_rules_per_vpc_network,Internal protocol forwarding rules per VPC network
 compute.googleapis.com/internal_traffic_director_forwarding_rules,Traffic director forwarding rules
@@ -203,6 +205,8 @@ compute.googleapis.com/read_requests,Read requests
 compute.googleapis.com/read_requests_per_region,Read requests
 compute.googleapis.com/reads_per_region,Read requests
 compute.googleapis.com/regional_autoscalers,Regional autoscalers
+compute.googleapis.com/regional_backend_services_protocol_forwarding_fast_ha,Regional Backend Services Protocol Forwarding Fast HA per region per VPC Network
+compute.googleapis.com/regional_backend_services_protocol_forwarding_ha,Regional Backend Services Protocol Forwarding HA per project region
 compute.googleapis.com/regional_concurrent_operations,Concurrent regional operations per project
 compute.googleapis.com/regional_external_managed_backend_services,Regional external managed backend services
 compute.googleapis.com/regional_external_managed_forwarding_rules_per_region_per_vpc_network,Regional External Managed Forwarding Rules per region per VPC Network
