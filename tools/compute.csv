@@ -20,6 +20,7 @@ compute.googleapis.com/committed_a2_cpus,Committed A2 CPUs
 compute.googleapis.com/committed_c2_cpus,Committed C2 CPUs
 compute.googleapis.com/committed_c2d_cpus,Committed C2D CPUs
 compute.googleapis.com/committed_c3_cpus,Committed C3 CPUs
+compute.googleapis.com/committed_c4d_cpus,Committed C4D CPUs
 compute.googleapis.com/committed_cpus,Committed CPUs
 compute.googleapis.com/committed_h4d_local_ssd_total_storage,Committed H4D local SSD disk reserved (GB)
 compute.googleapis.com/committed_licenses,Committed licenses
@@ -32,8 +33,10 @@ compute.googleapis.com/committed_n2d_cpus,Committed N2D CPUs
 compute.googleapis.com/committed_n4_cpus,Committed N4 CPUs
 compute.googleapis.com/committed_nvidia_a100_80gb_gpus,Committed NVIDIA A100 80GB GPUs
 compute.googleapis.com/committed_nvidia_a100_gpus,Committed NVIDIA A100 GPUs
+compute.googleapis.com/committed_nvidia_b200_gpus,Committed NVIDIA B200 GPUs
 compute.googleapis.com/committed_nvidia_h100_gpus,Committed NVIDIA H100 GPUs
 compute.googleapis.com/committed_nvidia_h100_mega_gpus,Committed NVIDIA H100 MEGA GPUs
+compute.googleapis.com/committed_nvidia_h200_gpus,Committed NVIDIA H200 GPUs
 compute.googleapis.com/committed_nvidia_k80_gpus,Committed NVIDIA K80 GPUs
 compute.googleapis.com/committed_nvidia_l4_gpus,Committed NVIDIA L4 GPUs
 compute.googleapis.com/committed_nvidia_p100_gpus,Committed NVIDIA P100 GPUs
@@ -180,8 +183,10 @@ compute.googleapis.com/preemptible_h4d_local_ssd_gb,Preemptible H4D Local SSD (G
 compute.googleapis.com/preemptible_local_ssd_gb,Preemptible Local SSD (GB)
 compute.googleapis.com/preemptible_nvidia_a100_80gb_gpus,Preemptible NVIDIA A100 80GB GPUs
 compute.googleapis.com/preemptible_nvidia_a100_gpus,Preemptible NVIDIA A100 GPUs
+compute.googleapis.com/preemptible_nvidia_b200_gpus,Preemptible NVIDIA B200 GPUs
 compute.googleapis.com/preemptible_nvidia_h100_gpus,Preemptible NVIDIA H100 GPUs
 compute.googleapis.com/preemptible_nvidia_h100_mega_gpus,Preemptible NVIDIA H100 MEGA GPUs
+compute.googleapis.com/preemptible_nvidia_h200_gpus,Preemptible NVIDIA H200 GPUs
 compute.googleapis.com/preemptible_nvidia_k80_gpus,Preemptible NVIDIA K80 GPUs
 compute.googleapis.com/preemptible_nvidia_l4_gpus,Preemptible NVIDIA L4 GPUs
 compute.googleapis.com/preemptible_nvidia_l4_vws_gpus,Preemptible NVIDIA L4 Virtual Workstation GPUs
@@ -195,6 +200,7 @@ compute.googleapis.com/preemptible_nvidia_v100_gpus,Preemptible NVIDIA V100 GPUs
 compute.googleapis.com/preemptible_tpu_lite_podslice_v5,Preemptible TPU v5 Lite PodSlice chips
 compute.googleapis.com/preemptible_tpu_podslice_v4,Preemptible TPU v4 PodSlice chips
 compute.googleapis.com/preemptible_tpu_v5p,Preemptible TPU v5p chips
+compute.googleapis.com/preemptible_tpu_v6e,Preemptible TPU v6e chips
 compute.googleapis.com/project_set_common_instance_metadata_requests,Project set common instance metadata requests
 compute.googleapis.com/psc_google_apis_forwarding_rules_per_vpc_network,PSC Google APIs Forwarding Rules per VPC Network
 compute.googleapis.com/psc_ilb_consumer_forwarding_rules_per_producer_vpc_network,PSC ILB Consumer Forwarding Rules per Producer VPC Network
