@@ -20,6 +20,7 @@ compute.googleapis.com/committed_a2_cpus,Committed A2 CPUs
 compute.googleapis.com/committed_c2_cpus,Committed C2 CPUs
 compute.googleapis.com/committed_c2d_cpus,Committed C2D CPUs
 compute.googleapis.com/committed_c3_cpus,Committed C3 CPUs
+compute.googleapis.com/committed_c4a_cpus,Committed C4A CPUs
 compute.googleapis.com/committed_c4d_cpus,Committed C4D CPUs
 compute.googleapis.com/committed_cpus,Committed CPUs
 compute.googleapis.com/committed_h4d_local_ssd_total_storage,Committed H4D local SSD disk reserved (GB)
@@ -31,6 +32,7 @@ compute.googleapis.com/committed_memory_optimized_cpus,Committed Memory Optimize
 compute.googleapis.com/committed_n2_cpus,Committed N2 CPUs
 compute.googleapis.com/committed_n2d_cpus,Committed N2D CPUs
 compute.googleapis.com/committed_n4_cpus,Committed N4 CPUs
+compute.googleapis.com/committed_n4d_cpus,Committed N4D CPUs
 compute.googleapis.com/committed_nvidia_a100_80gb_gpus,Committed NVIDIA A100 80GB GPUs
 compute.googleapis.com/committed_nvidia_a100_gpus,Committed NVIDIA A100 GPUs
 compute.googleapis.com/committed_nvidia_b200_gpus,Committed NVIDIA B200 GPUs
@@ -87,7 +89,7 @@ compute.googleapis.com/global_resource_write_requests,Global resource mutation r
 compute.googleapis.com/global_resource_write_requests_per_region,Global resource mutation requests
 compute.googleapis.com/global_static_addresses,Static IP addresses
 compute.googleapis.com/global_static_byoip_addresses,Static BYOIP IP addresses
-compute.googleapis.com/global_writes,Mutation requests
+compute.googleapis.com/global_writes,Write requests
 compute.googleapis.com/gpus_all_regions,GPUs (all regions)
 compute.googleapis.com/gpus_per_gpu_family,GPU count per GPU family.
 compute.googleapis.com/health_checks,Health checks
@@ -207,8 +209,8 @@ compute.googleapis.com/psc_ilb_consumer_forwarding_rules_per_producer_vpc_networ
 compute.googleapis.com/psc_internal_lb_forwarding_rules,PSC Internal LB Forwarding Rules
 compute.googleapis.com/psc_propagated_connections_per_vpc_network,PSC propagated connections per VPC Network
 compute.googleapis.com/public_advertised_prefixes,Public advertised prefixes
-compute.googleapis.com/read_requests,Read requests
-compute.googleapis.com/read_requests_per_region,Read requests
+compute.googleapis.com/read_requests,Read requests (legacy)
+compute.googleapis.com/read_requests_per_region,Read requests (legacy)
 compute.googleapis.com/reads_per_region,Read requests
 compute.googleapis.com/regional_autoscalers,Regional autoscalers
 compute.googleapis.com/regional_backend_services_protocol_forwarding_fast_ha,Regional Backend Services Protocol Forwarding Fast HA per region per VPC Network
@@ -292,5 +294,5 @@ compute.googleapis.com/vpn_tunnels,VPN tunnels
 compute.googleapis.com/wire_groups,Wire Groups
 compute.googleapis.com/wire_groups_gold_unmetered_bandwidth_gbps,Wire groups gold unmetered bandwidth
 compute.googleapis.com/wire_groups_per_interconnect,Wire groups per Interconnect
-compute.googleapis.com/writes_per_region,Mutation requests
+compute.googleapis.com/writes_per_region,Write requests
 compute.googleapis.com/xpn_service_projects,Cross Project Networking Service projects
