@@ -63,10 +63,13 @@ compute.googleapis.com/external_protocol_forwarding_rules,External protocol forw
 compute.googleapis.com/external_vpn_gateways,External VPN gateways
 compute.googleapis.com/filtered_list_cost_overhead,Filtered list cost overhead
 compute.googleapis.com/filtered_list_cost_overhead_per_region,Filtered list cost overhead
+compute.googleapis.com/firewall_rule_attributes_per_region_per_vpc_network,Firewall Rule attributes per region per VPC Network
+compute.googleapis.com/firewall_rule_fqdns_per_region_per_vpc_network,Firewall Rule FQDNs per region per VPC Network
 compute.googleapis.com/firewalls,Firewall rules
 compute.googleapis.com/forwarding_rules,Forwarding rules
 compute.googleapis.com/fqdns_per_global_network_firewall_policy,FQDN per global network firewall policy
 compute.googleapis.com/fqdns_per_regional_network_firewall_policy,FQDN per regional network firewall policy
+compute.googleapis.com/gce_firewall_programmed_secure_tag_values_per_vpc_network,GCE Firewall programmed Secure Tag Values per VPC Network
 compute.googleapis.com/get_macsec_config_requests,Get Macsec Config requests
 compute.googleapis.com/get_serial_port_output_requests,Instance GetSerialPortOutput requests
 compute.googleapis.com/get_serial_port_output_requests_per_region,Instance GetSerialPortOutput requests
@@ -137,6 +140,7 @@ compute.googleapis.com/internal_protocol_forwarding_rules_per_vpc_network,Intern
 compute.googleapis.com/internal_traffic_director_forwarding_rules,Traffic director forwarding rules
 compute.googleapis.com/ip_aliases_per_peering_group,IP Aliases per peering group
 compute.googleapis.com/ip_aliases_per_vpc_network,IP Aliases per VPC Network
+compute.googleapis.com/l2_vlan_mappings_per_interconnect,L2 VLAN mappings per Interconnect
 compute.googleapis.com/license_insert_requests,License insert requests
 compute.googleapis.com/license_verification_requests,Requests related to license verification
 compute.googleapis.com/license_verification_requests_per_region,Requests related to license verification
@@ -216,6 +220,7 @@ compute.googleapis.com/regional_autoscalers,Regional autoscalers
 compute.googleapis.com/regional_backend_services_protocol_forwarding_fast_ha,Regional Backend Services Protocol Forwarding Fast HA per region per VPC Network
 compute.googleapis.com/regional_backend_services_protocol_forwarding_ha,Regional Backend Services Protocol Forwarding HA per project region
 compute.googleapis.com/regional_concurrent_operations,Concurrent regional operations per project
+compute.googleapis.com/regional_external_managed_backend_buckets,Regional external managed backend buckets
 compute.googleapis.com/regional_external_managed_backend_services,Regional external managed backend services
 compute.googleapis.com/regional_external_managed_forwarding_rules_per_region_per_vpc_network,Regional External Managed Forwarding Rules per region per VPC Network
 compute.googleapis.com/regional_external_network_lb_backend_services,External passthrough Network Load Balancer backend services
@@ -223,6 +228,7 @@ compute.googleapis.com/regional_in_use_addresses,In-use IP addresses
 compute.googleapis.com/regional_instance_group_managers,Regional managed instance groups
 compute.googleapis.com/regional_instance_templates,Regional Instance templates
 compute.googleapis.com/regional_internal_lb_backend_services,Internal passthrough Network Load Balancer backend services
+compute.googleapis.com/regional_internal_managed_backend_buckets,Regional internal managed backend buckets
 compute.googleapis.com/regional_internal_managed_backend_services,Regional internal managed backend services
 compute.googleapis.com/regional_internal_managed_forwarding_rules_per_region_per_vpc_network,Regional Internal Managed Forwarding Rules per region per VPC Network
 compute.googleapis.com/regional_internal_traffic_director_backend_services,Regional internal traffic director backend services
@@ -239,6 +245,7 @@ compute.googleapis.com/regional_public_delegated_prefixes_delete_requests_per_re
 compute.googleapis.com/regional_security_policies,Regional security policies
 compute.googleapis.com/regional_security_policy_advanced_rules,Regional security policy rules with an advanced match condition
 compute.googleapis.com/regional_security_policy_rules,Regional security policy rules
+compute.googleapis.com/regional_snapshots,Regional Snapshots
 compute.googleapis.com/regional_ssl_policies,Regional SSL policies
 compute.googleapis.com/regional_static_addresses,Static IP addresses
 compute.googleapis.com/regional_static_byoip_addresses,Static BYOIP IP addresses
@@ -295,4 +302,4 @@ compute.googleapis.com/wire_groups,Wire Groups
 compute.googleapis.com/wire_groups_gold_unmetered_bandwidth_gbps,Wire groups gold unmetered bandwidth
 compute.googleapis.com/wire_groups_per_interconnect,Wire groups per Interconnect
 compute.googleapis.com/writes_per_region,Write requests
-compute.googleapis.com/xpn_service_projects,Cross Project Networking Service projects
+compute.googleapis.com/xpn_service_projects,Shared VPC service projects per host project
