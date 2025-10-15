@@ -48,6 +48,7 @@ compute.googleapis.com/committed_nvidia_v100_gpus,Committed NVIDIA V100 GPUs
 compute.googleapis.com/committed_t2d_cpus,Committed T2D CPUs
 compute.googleapis.com/committed_x4_cpus,Committed X4 CPUs
 compute.googleapis.com/committed_z3_cpus,Committed Z3 CPUs
+compute.googleapis.com/composite_health_checks,Composite Health Checks
 compute.googleapis.com/cpus,CPUs
 compute.googleapis.com/cpus_all_regions,CPUs (all regions)
 compute.googleapis.com/cpus_per_vm_family,CPU count per VM family.
@@ -95,7 +96,9 @@ compute.googleapis.com/global_static_byoip_addresses,Static BYOIP IP addresses
 compute.googleapis.com/global_writes,Write requests
 compute.googleapis.com/gpus_all_regions,GPUs (all regions)
 compute.googleapis.com/gpus_per_gpu_family,GPU count per GPU family.
+compute.googleapis.com/health_aggregation_policies,Health Aggregation Policies
 compute.googleapis.com/health_checks,Health checks
+compute.googleapis.com/health_sources,Health Sources
 compute.googleapis.com/heavy_weight_read_requests,Heavy-weight read requests
 compute.googleapis.com/heavy_weight_read_requests_per_region,Heavy-weight read requests
 compute.googleapis.com/heavy_weight_write_requests,Heavy-weight mutation requests
@@ -154,6 +157,7 @@ compute.googleapis.com/m1_cpus,M1 CPUs
 compute.googleapis.com/m2_cpus,M2 CPUs
 compute.googleapis.com/m3_cpus,M3 CPUs
 compute.googleapis.com/machine_images,Machine Images
+compute.googleapis.com/multicast_consumers_per_zone_per_vpc_network,Multicast consumers per zone per VPC Network
 compute.googleapis.com/n2_cpus,N2 CPUs
 compute.googleapis.com/n2d_cpus,N2D CPUs
 compute.googleapis.com/network_attachments,Network Attachments
@@ -238,6 +242,7 @@ compute.googleapis.com/regional_net_lb_security_policy_rules,Network load balanc
 compute.googleapis.com/regional_network_endpoint_list_requests_per_region,Regional network endpoint list requests
 compute.googleapis.com/regional_network_endpoint_write_requests_per_region,Regional network endpoint write requests
 compute.googleapis.com/regional_network_firewall_policies,Regional network firewall policies
+compute.googleapis.com/regional_network_firewall_policy_associations_per_region_per_vpc_network,Regional customer defined Network Firewall Policy Associations per region per VPC Network
 compute.googleapis.com/regional_public_delegated_prefixes,Regional public delegated prefixes
 compute.googleapis.com/regional_public_delegated_prefixes_announce_requests_per_region,Regional Public Delegated Prefixes announce requests
 compute.googleapis.com/regional_public_delegated_prefixes_create_requests_per_region,Regional Public Delegated Prefixes create requests
