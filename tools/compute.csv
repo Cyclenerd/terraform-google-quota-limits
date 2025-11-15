@@ -7,6 +7,7 @@ compute.googleapis.com/advanced_rules_per_edge_security_policy,Rules language ru
 compute.googleapis.com/advanced_rules_per_regional_security_policy,Rules language rules per regional security policy
 compute.googleapis.com/advanced_rules_per_security_policy,Rules language rules per security policy
 compute.googleapis.com/affinity_groups,Affinity groups
+compute.googleapis.com/asynchronously_replicating_disk_pairs_per_project_region_pair,Asynchronously replicating disk pairs per project and region pair
 compute.googleapis.com/autoscalers,Autoscalers
 compute.googleapis.com/backend_buckets,Backend buckets
 compute.googleapis.com/backend_services,Backend services
@@ -55,6 +56,9 @@ compute.googleapis.com/cpus_per_vm_family,CPU count per VM family.
 compute.googleapis.com/cross_site_networks,Cross-Site Networks
 compute.googleapis.com/default,Queries
 compute.googleapis.com/default_per_region,Queries
+compute.googleapis.com/disks_per_consistency_group,Disk count per consistency group
+compute.googleapis.com/disks_per_snapshot_schedule,Disk count per snapshot schedule
+compute.googleapis.com/disks_per_storage_pool,Disk count per storage pool
 compute.googleapis.com/disks_total_storage,Total persistent disk reserved (GB)
 compute.googleapis.com/dynamic_routes_per_region_per_peering_group,Dynamic routes per region per peering group
 compute.googleapis.com/external_managed_forwarding_rules,Regional External Managed Forwarding Rules
@@ -179,6 +183,7 @@ compute.googleapis.com/nvidia_p100_gpus,NVIDIA P100 GPUs
 compute.googleapis.com/nvidia_p100_vws_gpus,NVIDIA P100 Virtual Workstation GPUs
 compute.googleapis.com/nvidia_p4_gpus,NVIDIA P4 GPUs
 compute.googleapis.com/nvidia_p4_vws_gpus,NVIDIA P4 Virtual Workstation GPUs
+compute.googleapis.com/nvidia_rtx_pro_6000_vws_gpus,NVIDIA RTX PRO 6000 Virtual Workstation GPUs
 compute.googleapis.com/nvidia_t4_gpus,NVIDIA T4 GPUs
 compute.googleapis.com/nvidia_t4_vws_gpus,NVIDIA T4 Virtual Workstation GPUs
 compute.googleapis.com/nvidia_v100_gpus,NVIDIA V100 GPUs
@@ -204,6 +209,8 @@ compute.googleapis.com/preemptible_nvidia_p100_gpus,Preemptible NVIDIA P100 GPUs
 compute.googleapis.com/preemptible_nvidia_p100_vws_gpus,Preemptible NVIDIA P100 Virtual Workstation GPUs
 compute.googleapis.com/preemptible_nvidia_p4_gpus,Preemptible NVIDIA P4 GPUs
 compute.googleapis.com/preemptible_nvidia_p4_vws_gpus,Preemptible NVIDIA P4 Virtual Workstation GPUs
+compute.googleapis.com/preemptible_nvidia_rtx_pro_6000_gpus,Preemptible NVIDIA RTX PRO 6000 GPUs
+compute.googleapis.com/preemptible_nvidia_rtx_pro_6000_vws_gpus,Preemptible NVIDIA RTX PRO 6000 Virtual Workstation GPUs
 compute.googleapis.com/preemptible_nvidia_t4_gpus,Preemptible NVIDIA T4 GPUs
 compute.googleapis.com/preemptible_nvidia_t4_vws_gpus,Preemptible NVIDIA T4 Virtual Workstation GPUs
 compute.googleapis.com/preemptible_nvidia_v100_gpus,Preemptible NVIDIA V100 GPUs
@@ -283,6 +290,7 @@ compute.googleapis.com/ssl_certificates,SSL certificates
 compute.googleapis.com/ssl_policies,Global SSL policies
 compute.googleapis.com/static_routes_per_peering_group,Custom static routes per peering group
 compute.googleapis.com/static_routes_per_vpc_network,Custom static routes per VPC Network
+compute.googleapis.com/storage_pools,Storage Pools
 compute.googleapis.com/subnet_ranges_per_peering_group,Subnet ranges Per peering group
 compute.googleapis.com/subnet_ranges_per_vpc_network,Subnetwork ranges per VPC Network
 compute.googleapis.com/subnetworks,Subnetworks
