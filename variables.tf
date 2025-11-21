@@ -1,5 +1,5 @@
 /**
- * Copyright 2023 Nils Knieling
+ * Copyright 2023-2025 Nils Knieling
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -94,6 +94,7 @@ variable "metrics" {
     "compute.googleapis.com/nvidia_p100_vws_gpus",
     "compute.googleapis.com/nvidia_p4_gpus",
     "compute.googleapis.com/nvidia_p4_vws_gpus",
+    "compute.googleapis.com/nvidia_rtx_pro_6000_vws_gpus",
     "compute.googleapis.com/nvidia_t4_gpus",
     "compute.googleapis.com/nvidia_t4_vws_gpus",
     "compute.googleapis.com/nvidia_v100_gpus",
