@@ -214,6 +214,7 @@ compute.googleapis.com/preemptible_nvidia_rtx_pro_6000_vws_gpus,Preemptible NVID
 compute.googleapis.com/preemptible_nvidia_t4_gpus,Preemptible NVIDIA T4 GPUs
 compute.googleapis.com/preemptible_nvidia_t4_vws_gpus,Preemptible NVIDIA T4 Virtual Workstation GPUs
 compute.googleapis.com/preemptible_nvidia_v100_gpus,Preemptible NVIDIA V100 GPUs
+compute.googleapis.com/preemptible_tpu7x,Preemptible TPU7x chips
 compute.googleapis.com/preemptible_tpu_lite_podslice_v5,Preemptible TPU v5 Lite PodSlice chips
 compute.googleapis.com/preemptible_tpu_podslice_v4,Preemptible TPU v4 PodSlice chips
 compute.googleapis.com/preemptible_tpu_v5p,Preemptible TPU v5p chips
