@@ -49,6 +49,7 @@ compute.googleapis.com/committed_nvidia_v100_gpus,Committed NVIDIA V100 GPUs
 compute.googleapis.com/committed_t2d_cpus,Committed T2D CPUs
 compute.googleapis.com/committed_x4_cpus,Committed X4 CPUs
 compute.googleapis.com/committed_z3_cpus,Committed Z3 CPUs
+compute.googleapis.com/committed_z4d_cpus,Committed Z4D CPUs
 compute.googleapis.com/composite_health_checks,Composite Health Checks
 compute.googleapis.com/cpus,CPUs
 compute.googleapis.com/cpus_all_regions,CPUs (all regions)
@@ -61,6 +62,7 @@ compute.googleapis.com/disks_per_snapshot_schedule,Disk count per snapshot sched
 compute.googleapis.com/disks_per_storage_pool,Disk count per storage pool
 compute.googleapis.com/disks_total_storage,Total persistent disk reserved (GB)
 compute.googleapis.com/dynamic_routes_per_region_per_peering_group,Dynamic routes per region per peering group
+compute.googleapis.com/exapools,Exapools
 compute.googleapis.com/external_managed_forwarding_rules,Regional External Managed Forwarding Rules
 compute.googleapis.com/external_network_lb_forwarding_rules,External passthrough Network Load Balancer forwarding rules
 compute.googleapis.com/external_protocol_forwarding_ha_rules,"External protocol forwarding HA rules "
@@ -108,6 +110,9 @@ compute.googleapis.com/heavy_weight_read_requests_per_region,Heavy-weight read r
 compute.googleapis.com/heavy_weight_write_requests,Heavy-weight mutation requests
 compute.googleapis.com/heavy_weight_write_requests_per_region,Heavy-weight mutation requests
 compute.googleapis.com/hyperdisk_balanced_confidential_total_storage,Hyperdisk Balanced Capacity in Confidential Mode (GB)
+compute.googleapis.com/hyperdisk_balanced_exapools_capacity_optimized_capacity,Hyperdisk Balanced Exapools Capacity-Optimized Capacity (GiB)
+compute.googleapis.com/hyperdisk_balanced_exapools_read_optimized_capacity,Hyperdisk Balanced Exapools Read-Optimized Capacity (GiB)
+compute.googleapis.com/hyperdisk_balanced_exapools_write_optimized_capacity,Hyperdisk Balanced Exapools Write-Optimized Capacity (GiB)
 compute.googleapis.com/hyperdisk_balanced_storage_pools_advanced_capacity,Hyperdisk Balanced Storage Pools Advanced Capacity (GB)
 compute.googleapis.com/hyperdisk_balanced_storage_pools_advanced_iops,Hyperdisk Balanced Storage Pools Advanced IOPs
 compute.googleapis.com/hyperdisk_balanced_storage_pools_advanced_throughput,Hyperdisk Balanced Storage Pools Advanced Throughput (MB/s)
@@ -117,6 +122,9 @@ compute.googleapis.com/hyperdisk_balanced_total_storage,Hyperdisk Balanced Capac
 compute.googleapis.com/hyperdisk_extreme_total_storage,Hyperdisk Extreme Capacity (GB)
 compute.googleapis.com/hyperdisk_ml_total_provisioned_throughput,Hyperdisk ML Throughput (MB/s)
 compute.googleapis.com/hyperdisk_ml_total_storage,Hyperdisk ML Capacity (GB)
+compute.googleapis.com/hyperdisk_throughput_exapools_capacity_optimized_capacity,Hyperdisk Throughput Exapools Capacity-Optimized Capacity (GiB)
+compute.googleapis.com/hyperdisk_throughput_exapools_read_optimized_capacity,Hyperdisk Throughput Exapools Read-Optimized Capacity (GiB)
+compute.googleapis.com/hyperdisk_throughput_exapools_write_optimized_capacity,Hyperdisk Throughput Exapools Write-Optimized Capacity (GiB)
 compute.googleapis.com/hyperdisk_throughput_storage_pools_advanced_capacity,Hyperdisk Throughput Storage Pools Advanced Capacity (GB)
 compute.googleapis.com/hyperdisk_throughput_storage_pools_advanced_throughput,Hyperdisk Throughput Storage Pools Advanced Throughput (MB/s)
 compute.googleapis.com/hyperdisk_throughput_total_storage,Hyperdisk Throughput Capacity (GB)
