@@ -24,6 +24,7 @@ compute.googleapis.com/committed_c3_cpus,Committed C3 CPUs
 compute.googleapis.com/committed_c4a_cpus,Committed C4A CPUs
 compute.googleapis.com/committed_c4d_cpus,Committed C4D CPUs
 compute.googleapis.com/committed_cpus,Committed CPUs
+compute.googleapis.com/committed_h4d_cpus,Committed H4D CPUs
 compute.googleapis.com/committed_h4d_local_ssd_total_storage,Committed H4D local SSD disk reserved (GB)
 compute.googleapis.com/committed_licenses,Committed licenses
 compute.googleapis.com/committed_local_ssd_total_storage,Committed local SSD disk reserved (GB)
@@ -64,7 +65,7 @@ compute.googleapis.com/disks_total_storage,Total persistent disk reserved (GB)
 compute.googleapis.com/dynamic_routes_per_region_per_peering_group,Dynamic routes per region per peering group
 compute.googleapis.com/exapools,Exapools
 compute.googleapis.com/external_managed_forwarding_rules,Regional External Managed Forwarding Rules
-compute.googleapis.com/external_network_lb_forwarding_rules,External passthrough Network Load Balancer forwarding rules
+compute.googleapis.com/external_network_lb_forwarding_rules,Regional External passthrough Network Load Balancer forwarding rules
 compute.googleapis.com/external_protocol_forwarding_ha_rules,"External protocol forwarding HA rules "
 compute.googleapis.com/external_protocol_forwarding_rules,External protocol forwarding rules
 compute.googleapis.com/external_vpn_gateways,External VPN gateways
@@ -84,6 +85,8 @@ compute.googleapis.com/global_cache_invalidation_requests,Cache invalidation req
 compute.googleapis.com/global_concurrent_operations,Concurrent global operations per project
 compute.googleapis.com/global_external_managed_backend_services,Global external managed backend services
 compute.googleapis.com/global_external_managed_forwarding_rules,Global External Managed Forwarding Rules
+compute.googleapis.com/global_external_network_lb_backend_services,Global External passthrough Network Load Balancer backend services
+compute.googleapis.com/global_external_network_lb_forwarding_rules,Global External passthrough Network Load Balancer forwarding rules
 compute.googleapis.com/global_external_proxy_lb_backend_services,Global external proxy LB backend services
 compute.googleapis.com/global_in_use_addresses,In-use IP addresses
 compute.googleapis.com/global_internal_addresses,Global internal IP addresses
@@ -243,7 +246,7 @@ compute.googleapis.com/regional_concurrent_operations,Concurrent regional operat
 compute.googleapis.com/regional_external_managed_backend_buckets,Regional external managed backend buckets
 compute.googleapis.com/regional_external_managed_backend_services,Regional external managed backend services
 compute.googleapis.com/regional_external_managed_forwarding_rules_per_region_per_vpc_network,Regional External Managed Forwarding Rules per region per VPC Network
-compute.googleapis.com/regional_external_network_lb_backend_services,External passthrough Network Load Balancer backend services
+compute.googleapis.com/regional_external_network_lb_backend_services,Regional External passthrough Network Load Balancer backend services
 compute.googleapis.com/regional_in_use_addresses,In-use IP addresses
 compute.googleapis.com/regional_instance_group_managers,Regional managed instance groups
 compute.googleapis.com/regional_instance_templates,Regional Instance templates
