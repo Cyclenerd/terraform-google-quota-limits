@@ -5,7 +5,10 @@ storage.googleapis.com/dualregion_anywhere_cache_egress_bandwidth,Dualregion Any
 storage.googleapis.com/dualregion_google_egress_bandwidth,Dualregion Google Egress Bandwidth
 storage.googleapis.com/dualregion_internet_egress_bandwidth,Dualregion Internet Egress Bandwidth
 storage.googleapis.com/google_egress_bandwidth,Google Egress Bandwidth
+storage.googleapis.com/intelligence_findings_requests,Intelligence Findings Requests
 storage.googleapis.com/internet_egress_bandwidth,Internet Egress Bandwidth
 storage.googleapis.com/multiregion_anywhere_cache_egress_bandwidth,Multi-region Anywhere Cache Egress Bandwidth
 storage.googleapis.com/multiregion_google_egress_bandwidth,MultiRegion Google Egress Bandwidth
 storage.googleapis.com/multiregion_internet_egress_bandwidth,Multiregion Internet Egress Bandwidth
+storage.googleapis.com/rapid_zonal_bytes,Rapid Zonal Bytes
+storage.googleapis.com/rapid_zonal_egress_bandwidth,Rapid Zonal Egress Bandwidth

@@ -48,6 +48,9 @@ compute.googleapis.com/committed_nvidia_p4_gpus,Committed NVIDIA P4 GPUs
 compute.googleapis.com/committed_nvidia_t4_gpus,Committed NVIDIA T4 GPUs
 compute.googleapis.com/committed_nvidia_v100_gpus,Committed NVIDIA V100 GPUs
 compute.googleapis.com/committed_t2d_cpus,Committed T2D CPUs
+compute.googleapis.com/committed_u4c_cpus,Committed U4C CPUs
+compute.googleapis.com/committed_u4p_cpus,Committed U4P CPUs
+compute.googleapis.com/committed_u4s_cpus,Committed U4S CPUs
 compute.googleapis.com/committed_x4_cpus,Committed X4 CPUs
 compute.googleapis.com/committed_z3_cpus,Committed Z3 CPUs
 compute.googleapis.com/committed_z4d_cpus,Committed Z4D CPUs
@@ -55,6 +58,7 @@ compute.googleapis.com/composite_health_checks,Composite Health Checks
 compute.googleapis.com/cpus,CPUs
 compute.googleapis.com/cpus_all_regions,CPUs (all regions)
 compute.googleapis.com/cpus_per_vm_family,CPU count per VM family.
+compute.googleapis.com/cross_regional_internal_proxy_lb_config_per_region_per_vpc_network,Cross regional internal proxy LB config size per region per VPC network
 compute.googleapis.com/cross_site_networks,Cross-Site Networks
 compute.googleapis.com/default,Queries
 compute.googleapis.com/default_per_region,Queries
@@ -88,6 +92,7 @@ compute.googleapis.com/global_external_managed_forwarding_rules,Global External 
 compute.googleapis.com/global_external_network_lb_backend_services,Global External passthrough Network Load Balancer backend services
 compute.googleapis.com/global_external_network_lb_forwarding_rules,Global External passthrough Network Load Balancer forwarding rules
 compute.googleapis.com/global_external_proxy_lb_backend_services,Global external proxy LB backend services
+compute.googleapis.com/global_external_proxy_lb_config,Global external proxy LB config size
 compute.googleapis.com/global_in_use_addresses,In-use IP addresses
 compute.googleapis.com/global_internal_addresses,Global internal IP addresses
 compute.googleapis.com/global_internal_managed_backend_buckets,Global internal managed backend buckets
@@ -239,6 +244,7 @@ compute.googleapis.com/public_advertised_prefixes,Public advertised prefixes
 compute.googleapis.com/read_requests,Read requests (legacy)
 compute.googleapis.com/read_requests_per_region,Read requests (legacy)
 compute.googleapis.com/reads_per_region,Read requests
+compute.googleapis.com/regex_matchers_per_path_matcher_envoy_lb,Regex Matchers per Path Matcher for Envoy-based load balancers
 compute.googleapis.com/regional_autoscalers,Regional autoscalers
 compute.googleapis.com/regional_backend_services_protocol_forwarding_fast_ha,Regional Backend Services Protocol Forwarding Fast HA per region per VPC Network
 compute.googleapis.com/regional_backend_services_protocol_forwarding_ha,Regional Backend Services Protocol Forwarding HA per project region
@@ -247,6 +253,7 @@ compute.googleapis.com/regional_external_managed_backend_buckets,Regional extern
 compute.googleapis.com/regional_external_managed_backend_services,Regional external managed backend services
 compute.googleapis.com/regional_external_managed_forwarding_rules_per_region_per_vpc_network,Regional External Managed Forwarding Rules per region per VPC Network
 compute.googleapis.com/regional_external_network_lb_backend_services,Regional External passthrough Network Load Balancer backend services
+compute.googleapis.com/regional_external_proxy_lb_config_per_region_per_vpc_network,Regional external proxy LB config size per region per VPC network
 compute.googleapis.com/regional_in_use_addresses,In-use IP addresses
 compute.googleapis.com/regional_instance_group_managers,Regional managed instance groups
 compute.googleapis.com/regional_instance_templates,Regional Instance templates
@@ -254,6 +261,7 @@ compute.googleapis.com/regional_internal_lb_backend_services,Internal passthroug
 compute.googleapis.com/regional_internal_managed_backend_buckets,Regional internal managed backend buckets
 compute.googleapis.com/regional_internal_managed_backend_services,Regional internal managed backend services
 compute.googleapis.com/regional_internal_managed_forwarding_rules_per_region_per_vpc_network,Regional Internal Managed Forwarding Rules per region per VPC Network
+compute.googleapis.com/regional_internal_proxy_lb_config_per_region_per_vpc_network,Regional internal proxy LB config size per region per VPC network
 compute.googleapis.com/regional_internal_traffic_director_backend_services,Regional internal traffic director backend services
 compute.googleapis.com/regional_net_lb_security_policies,Network load balancing security policies
 compute.googleapis.com/regional_net_lb_security_policy_rule_attributes,Network load balacing security policy rule attributes
