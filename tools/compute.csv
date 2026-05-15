@@ -54,7 +54,7 @@ compute.googleapis.com/committed_u4s_cpus,Committed U4S CPUs
 compute.googleapis.com/committed_x4_cpus,Committed X4 CPUs
 compute.googleapis.com/committed_z3_cpus,Committed Z3 CPUs
 compute.googleapis.com/committed_z4d_cpus,Committed Z4D CPUs
-compute.googleapis.com/composite_health_checks,Composite Health Checks
+compute.googleapis.com/committed_z4m_cpus,Committed Z4M CPUs
 compute.googleapis.com/cpus,CPUs
 compute.googleapis.com/cpus_all_regions,CPUs (all regions)
 compute.googleapis.com/cpus_per_vm_family,CPU count per VM family.
@@ -108,11 +108,10 @@ compute.googleapis.com/global_resource_write_requests_per_region,Global resource
 compute.googleapis.com/global_static_addresses,Static IP addresses
 compute.googleapis.com/global_static_byoip_addresses,Static BYOIP IP addresses
 compute.googleapis.com/global_writes,Write requests
+compute.googleapis.com/gnlb_forwarding_rules_per_global_backend_service,Global NetLB Forwarding Rules per Global Backend Service
 compute.googleapis.com/gpus_all_regions,GPUs (all regions)
 compute.googleapis.com/gpus_per_gpu_family,GPU count per GPU family.
-compute.googleapis.com/health_aggregation_policies,Health Aggregation Policies
 compute.googleapis.com/health_checks,Health checks
-compute.googleapis.com/health_sources,Health Sources
 compute.googleapis.com/heavy_weight_read_requests,Heavy-weight read requests
 compute.googleapis.com/heavy_weight_read_requests_per_region,Heavy-weight read requests
 compute.googleapis.com/heavy_weight_write_requests,Heavy-weight mutation requests
@@ -163,6 +162,7 @@ compute.googleapis.com/internal_protocol_forwarding_rules_per_vpc_network,Intern
 compute.googleapis.com/internal_traffic_director_forwarding_rules,Traffic director forwarding rules
 compute.googleapis.com/ip_aliases_per_peering_group,IP Aliases per peering group
 compute.googleapis.com/ip_aliases_per_vpc_network,IP Aliases per VPC Network
+compute.googleapis.com/ipv6_public_advertised_prefixes,IPv6 Public advertised prefixes
 compute.googleapis.com/l2_vlan_mappings_per_interconnect,L2 VLAN mappings per Interconnect
 compute.googleapis.com/license_insert_requests,License insert requests
 compute.googleapis.com/license_verification_requests,Requests related to license verification
@@ -248,12 +248,15 @@ compute.googleapis.com/regex_matchers_per_path_matcher_envoy_lb,Regex Matchers p
 compute.googleapis.com/regional_autoscalers,Regional autoscalers
 compute.googleapis.com/regional_backend_services_protocol_forwarding_fast_ha,Regional Backend Services Protocol Forwarding Fast HA per region per VPC Network
 compute.googleapis.com/regional_backend_services_protocol_forwarding_ha,Regional Backend Services Protocol Forwarding HA per project region
+compute.googleapis.com/regional_composite_health_checks,Regional Composite Health Checks
 compute.googleapis.com/regional_concurrent_operations,Concurrent regional operations per project
 compute.googleapis.com/regional_external_managed_backend_buckets,Regional external managed backend buckets
 compute.googleapis.com/regional_external_managed_backend_services,Regional external managed backend services
 compute.googleapis.com/regional_external_managed_forwarding_rules_per_region_per_vpc_network,Regional External Managed Forwarding Rules per region per VPC Network
 compute.googleapis.com/regional_external_network_lb_backend_services,Regional External passthrough Network Load Balancer backend services
 compute.googleapis.com/regional_external_proxy_lb_config_per_region_per_vpc_network,Regional external proxy LB config size per region per VPC network
+compute.googleapis.com/regional_health_aggregation_policies,Regional Health Aggregation Policies
+compute.googleapis.com/regional_health_sources,Regional Health Sources
 compute.googleapis.com/regional_in_use_addresses,In-use IP addresses
 compute.googleapis.com/regional_instance_group_managers,Regional managed instance groups
 compute.googleapis.com/regional_instance_templates,Regional Instance templates
@@ -270,6 +273,7 @@ compute.googleapis.com/regional_network_endpoint_list_requests_per_region,Region
 compute.googleapis.com/regional_network_endpoint_write_requests_per_region,Regional network endpoint write requests
 compute.googleapis.com/regional_network_firewall_policies,Regional network firewall policies
 compute.googleapis.com/regional_network_firewall_policy_associations_per_region_per_vpc_network,Regional customer defined Network Firewall Policy Associations per region per VPC Network
+compute.googleapis.com/regional_network_policies,Regional network policies
 compute.googleapis.com/regional_public_delegated_prefixes,Regional public delegated prefixes
 compute.googleapis.com/regional_public_delegated_prefixes_announce_requests_per_region,Regional Public Delegated Prefixes announce requests
 compute.googleapis.com/regional_public_delegated_prefixes_create_requests_per_region,Regional Public Delegated Prefixes create requests
@@ -298,6 +302,7 @@ compute.googleapis.com/routers,Routers
 compute.googleapis.com/routes,Routes
 compute.googleapis.com/rule_attributes_per_global_network_firewall_policy,Rule attributes per global network firewall policy
 compute.googleapis.com/rule_attributes_per_regional_network_firewall_policy,Rule attributes per regional network firewall policy
+compute.googleapis.com/rule_attributes_per_regional_network_policy,Network policy rule attributes (atoms) per regional network policy.
 compute.googleapis.com/security_policies,Security policies
 compute.googleapis.com/security_policy_ceval_rules,Security policy rules language rules
 compute.googleapis.com/security_policy_rules,Security policy rules
@@ -323,6 +328,7 @@ compute.googleapis.com/target_pools,Target pools
 compute.googleapis.com/target_ssl_proxies,Target SSL proxies
 compute.googleapis.com/target_tcp_proxies,Target TCP proxies
 compute.googleapis.com/target_vpn_gateways,Target VPN gateways
+compute.googleapis.com/target_vpn_gateways_per_region,Target VPN gateways per region
 compute.googleapis.com/tpu_lite_podslice_v5,TPU v5 Lite PodSlice chips
 compute.googleapis.com/tpu_podslice_v4,TPU v4 PodSlice chips
 compute.googleapis.com/tpu_v5p,TPU v5p chips
@@ -330,7 +336,9 @@ compute.googleapis.com/tpus_per_tpu_family,TPU count per TPU family.
 compute.googleapis.com/url_maps,URL maps
 compute.googleapis.com/vm_to_internet_egress_bandwidth,VM to Internet Egress Bandwidth Mbps
 compute.googleapis.com/vpn_gateways,VPN gateways
+compute.googleapis.com/vpn_gateways_per_region,VPN gateways per region
 compute.googleapis.com/vpn_tunnels,VPN tunnels
+compute.googleapis.com/vpn_tunnels_per_region,VPN tunnels per region
 compute.googleapis.com/wire_groups,Wire Groups
 compute.googleapis.com/wire_groups_gold_unmetered_bandwidth_gbps,Wire groups gold unmetered bandwidth
 compute.googleapis.com/wire_groups_per_interconnect,Wire groups per Interconnect
