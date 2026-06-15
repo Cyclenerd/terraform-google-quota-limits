@@ -11,6 +11,7 @@ compute.googleapis.com/asynchronously_replicating_disk_pairs_per_project_region_
 compute.googleapis.com/autoscalers,Autoscalers
 compute.googleapis.com/backend_buckets,Backend buckets
 compute.googleapis.com/backend_services,Backend services
+compute.googleapis.com/bare_metal_mrdma_networks,Bare Metal MRDMA Networks
 compute.googleapis.com/c2_cpus,C2 CPUs
 compute.googleapis.com/c2d_cpus,C2D CPUs
 compute.googleapis.com/c3_cpus,C3 CPUs
