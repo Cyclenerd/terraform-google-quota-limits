@@ -22,6 +22,7 @@ compute.googleapis.com/committed_c2d_cpus,Committed C2D CPUs
 compute.googleapis.com/committed_c3_cpus,Committed C3 CPUs
 compute.googleapis.com/committed_c4a_cpus,Committed C4A CPUs
 compute.googleapis.com/committed_c4d_cpus,Committed C4D CPUs
+compute.googleapis.com/committed_c4n_cpus,Committed C4N CPUs
 compute.googleapis.com/committed_cpus,Committed CPUs
 compute.googleapis.com/committed_h4d_cpus,Committed H4D CPUs
 compute.googleapis.com/committed_h4d_local_ssd_total_storage,Committed H4D local SSD disk reserved (GB)
@@ -302,6 +303,7 @@ compute.googleapis.com/tpu_podslice_v4,TPU v4 PodSlice chips
 compute.googleapis.com/tpu_v5p,TPU v5p chips
 compute.googleapis.com/tpus_per_tpu_family,TPU count per TPU family.
 compute.googleapis.com/url_maps,URL maps
+compute.googleapis.com/vm_extension_policies,VM Extension Policies
 compute.googleapis.com/vm_to_internet_egress_bandwidth,VM to Internet Egress Bandwidth Mbps
 compute.googleapis.com/vpn_gateways,VPN gateways
 compute.googleapis.com/vpn_gateways_per_region,VPN gateways per region
