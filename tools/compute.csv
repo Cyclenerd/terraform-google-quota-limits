@@ -62,6 +62,7 @@ compute.googleapis.com/cpus_all_regions,CPUs (all regions)
 compute.googleapis.com/cpus_per_vm_family,CPU count per VM family.
 compute.googleapis.com/cross_regional_internal_proxy_lb_config_per_region_per_vpc_network,Cross regional internal proxy LB config size per region per VPC network
 compute.googleapis.com/cross_site_networks,Cross-Site Networks
+compute.googleapis.com/dhcp_options_associations_per_region,DHCP options associations per region
 compute.googleapis.com/dhcp_options_per_region,DHCP options per region
 compute.googleapis.com/disks_per_consistency_group,Disk count per consistency group
 compute.googleapis.com/disks_per_snapshot_schedule,Disk count per snapshot schedule
