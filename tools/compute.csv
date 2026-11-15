@@ -1,5 +1,6 @@
 METRIC,NAME
 compute.googleapis.com/a2_cpus,NVIDIA A2 CPUs
+compute.googleapis.com/accelerator_interconnects,Accelerator Interconnects
 compute.googleapis.com/active_resize_requests,Active resize requests
 compute.googleapis.com/advanced_rules_per_edge_security_policy,Rules language rules per edge security policy
 compute.googleapis.com/advanced_rules_per_regional_security_policy,Rules language rules per regional security policy
@@ -147,6 +148,7 @@ compute.googleapis.com/interconnects,Interconnects
 compute.googleapis.com/internal_addresses,Internal IP addresses
 compute.googleapis.com/internal_lb_forwarding_rules_per_peering_group,Internal passthrough Network Load Balancer forwarding rules per peering group
 compute.googleapis.com/internal_lb_forwarding_rules_per_vpc_network,Internal passthrough Network Load Balancer forwarding rules per VPC network
+compute.googleapis.com/internal_lb_weighted_backend_services,Internal passthrough Network Load Balancer weighted backend services
 compute.googleapis.com/internal_managed_forwarding_rules_per_peering_group,Internal Managed Forwarding Rules per peering group
 compute.googleapis.com/internal_managed_forwarding_rules_per_vpc_network,Internal Managed Forwarding Rules per VPC Network
 compute.googleapis.com/internal_protocol_forwarding_ha_rules_per_vpc_network,Internal Protocol Forwarding HA Rules per VPC Network
@@ -214,6 +216,7 @@ compute.googleapis.com/preemptible_nvidia_rtx_pro_6000_vws_gpus,Preemptible NVID
 compute.googleapis.com/preemptible_nvidia_t4_gpus,Preemptible NVIDIA T4 GPUs
 compute.googleapis.com/preemptible_nvidia_t4_vws_gpus,Preemptible NVIDIA T4 Virtual Workstation GPUs
 compute.googleapis.com/preemptible_nvidia_v100_gpus,Preemptible NVIDIA V100 GPUs
+compute.googleapis.com/preemptible_tpu7,Preemptible TPU7 chips
 compute.googleapis.com/preemptible_tpu7x,Preemptible TPU7x chips
 compute.googleapis.com/preemptible_tpu_lite_podslice_v5,Preemptible TPU v5 Lite PodSlice chips
 compute.googleapis.com/preemptible_tpu_podslice_v4,Preemptible TPU v4 PodSlice chips
@@ -226,6 +229,7 @@ compute.googleapis.com/psc_propagated_connections_per_vpc_network,PSC propagated
 compute.googleapis.com/public_advertised_prefixes,Public advertised prefixes
 compute.googleapis.com/reads_per_region,Read requests
 compute.googleapis.com/regex_matchers_per_path_matcher_envoy_lb,Regex Matchers per Path Matcher for Envoy-based load balancers
+compute.googleapis.com/regex_matchers_per_url_map_gfe_lb,Regex Matchers per Path Matcher for GFE load balancers
 compute.googleapis.com/regional_autoscalers,Regional autoscalers
 compute.googleapis.com/regional_backend_services_protocol_forwarding_fast_ha,Regional Backend Services Protocol Forwarding Fast HA per region per VPC Network
 compute.googleapis.com/regional_backend_services_protocol_forwarding_ha,Regional Backend Services Protocol Forwarding HA per project region
